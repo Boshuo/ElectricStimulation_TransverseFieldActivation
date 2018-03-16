@@ -1,0 +1,91 @@
+Model type: 	Axon terminal with synapse
+Parameter ID:	546
+Pulse duration in ms:	4.5000
+Field orientation in degrees:	81.0
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	1.6084  V/m: 	 no AP.
+Increasing amplitude: 	1.7539  V/m: 	 no AP.
+Increasing amplitude: 	1.9127  V/m: 	 no AP.
+Increasing amplitude: 	2.0858  V/m: 	 no AP.
+Increasing amplitude: 	2.2746  V/m: 	 no AP.
+Increasing amplitude: 	2.4804  V/m: 	 no AP.
+Increasing amplitude: 	2.7049  V/m: 	 no AP.
+Increasing amplitude: 	2.9497  V/m: 	 no AP.
+Increasing amplitude: 	3.2167  V/m: 	 no AP.
+Increasing amplitude: 	3.5078  V/m: 	 no AP.
+Increasing amplitude: 	3.8253  V/m: 	 no AP.
+Increasing amplitude: 	4.1715  V/m: 	 no AP.
+Increasing amplitude: 	4.5491  V/m: 	 no AP.
+Increasing amplitude: 	4.9608  V/m: 	 no AP.
+Increasing amplitude: 	5.4098  V/m: 	 no AP.
+Increasing amplitude: 	5.8995  V/m: 	 no AP.
+Increasing amplitude: 	6.4334  V/m: 	 no AP.
+Increasing amplitude: 	7.0157  V/m: 	 no AP.
+Increasing amplitude: 	7.6506  V/m: 	 no AP.
+Increasing amplitude: 	8.3431  V/m: 	 no AP.
+Increasing amplitude: 	9.0982  V/m: 	 no AP.
+Increasing amplitude: 	9.9217  V/m: 	 no AP.
+Increasing amplitude: 	10.8197  V/m: 	 no AP.
+Increasing amplitude: 	11.7989  V/m: 	 no AP.
+Increasing amplitude: 	12.8668  V/m: 	 no AP.
+Increasing amplitude: 	14.0314  V/m: 	 no AP.
+Increasing amplitude: 	15.3013  V/m: 	 no AP.
+Increasing amplitude: 	16.6862  V/m: 	 no AP.
+Increasing amplitude: 	18.1964  V/m: 	 no AP.
+Increasing amplitude: 	19.8433  V/m: 	 no AP.
+Increasing amplitude: 	21.6393  V/m: 	 no AP.
+Increasing amplitude: 	23.5978  V/m: 	 no AP.
+Increasing amplitude: 	25.7336  V/m: 	 no AP.
+Increasing amplitude: 	28.0627  V/m: 	 no AP.
+Increasing amplitude: 	30.6026  V/m: 	 no AP.
+Increasing amplitude: 	33.3724  V/m: 	 no AP.
+Increasing amplitude: 	36.3928  V/m: 	 no AP.
+Increasing amplitude: 	39.6867  V/m: 	 no AP.
+Increasing amplitude: 	43.2786  V/m: 	 no AP.
+Increasing amplitude: 	47.1957  V/m: 	 no AP.
+Increasing amplitude: 	51.4672  V/m: 	 no AP.
+Increasing amplitude: 	56.1254  V/m: 	 no AP.
+Increasing amplitude: 	61.2052  V/m: 	 no AP.
+Increasing amplitude: 	66.7447  V/m: 	 no AP.
+Increasing amplitude: 	72.7857  V/m: 	 no AP.
+Increasing amplitude: 	79.3733  V/m: 	 no AP.
+Increasing amplitude: 	86.5572  V/m: 	 no AP.
+Increasing amplitude: 	94.3913  V/m: 	 no AP.
+Increasing amplitude: 	0.1029 kV/m: 	 no AP.
+Increasing amplitude: 	0.1123 kV/m: 	 no AP.
+Increasing amplitude: 	0.1224 kV/m: 	 no AP.
+Increasing amplitude: 	0.1335 kV/m: 	 no AP.
+Increasing amplitude: 	0.1456 kV/m: 	 AP.
+Lower bound: 0.1335 kV/m.   Upper bound: 0.1456 kV/m.   Search amplitude: 0.1394 kV/m: no AP.
+Lower bound: 0.1394 kV/m.   Upper bound: 0.1456 kV/m.   Search amplitude: 0.1425 kV/m: AP.
+Lower bound: 0.1394 kV/m.   Upper bound: 0.1425 kV/m.   Search amplitude: 0.1409 kV/m: no AP.
+Lower bound: 0.1409 kV/m.   Upper bound: 0.1425 kV/m.   Search amplitude: 0.1417 kV/m: no AP.
+Lower bound: 0.1417 kV/m.   Upper bound: 0.1425 kV/m.   Search amplitude: 0.1421 kV/m: AP.
+Binary search ended. Threshold: 0.1421 kV/m.
+ 
+Run time for search: 0.83 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	0.1118 kV/m: 	 no AP.
+Increasing amplitude: 	0.1167 kV/m: 	 no AP.
+Increasing amplitude: 	0.1219 kV/m: 	 no AP.
+Increasing amplitude: 	0.1273 kV/m: 	 no AP.
+Increasing amplitude: 	0.1329 kV/m: 	 no AP.
+Increasing amplitude: 	0.1388 kV/m: 	 no AP.
+Increasing amplitude: 	0.1450 kV/m: 	 AP.
+Lower bound: 0.1388 kV/m.   Upper bound: 0.1450 kV/m.   Search amplitude: 0.1419 kV/m: AP.
+Lower bound: 0.1388 kV/m.   Upper bound: 0.1419 kV/m.   Search amplitude: 0.1403 kV/m: no AP.
+Lower bound: 0.1403 kV/m.   Upper bound: 0.1419 kV/m.   Search amplitude: 0.1411 kV/m: AP.
+Lower bound: 0.1403 kV/m.   Upper bound: 0.1411 kV/m.   Search amplitude: 0.1407 kV/m: no AP.
+Binary search ended. Threshold: 0.1407 kV/m.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.50 min.
+ 
+-----------------------------------------------------------
+Total run time: 1.329 min.
+Results saved in UF_TrmS_RMG/Results/result_546.mat.

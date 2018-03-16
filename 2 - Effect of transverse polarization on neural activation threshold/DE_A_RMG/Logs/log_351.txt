@@ -1,0 +1,45 @@
+Model type: 	Disk electrode
+Parameter ID:	351
+Pulse duration in ms:	1.0000
+Axon-Electrode distance in mm:	0.6800
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-2.1192 uA: 	 no AP.
+Increasing amplitude: 	-2.9970 uA: 	 no AP.
+Increasing amplitude: 	-4.2384 uA: 	 no AP.
+Increasing amplitude: 	-5.9940 uA: 	 no AP.
+Increasing amplitude: 	-8.4768 uA: 	 no AP.
+Increasing amplitude: 	-11.9880 uA: 	 no AP.
+Increasing amplitude: 	-16.9536 uA: 	 AP.
+Lower bound: -11.9880 uA.   Upper bound: -16.9536 uA.   Search amplitude: -14.2562 uA: no AP.
+Lower bound: -14.2562 uA.   Upper bound: -16.9536 uA.   Search amplitude: -15.5465 uA: no AP.
+Lower bound: -15.5465 uA.   Upper bound: -16.9536 uA.   Search amplitude: -16.2348 uA: AP.
+Lower bound: -15.5465 uA.   Upper bound: -16.2348 uA.   Search amplitude: -15.8869 uA: no AP.
+Lower bound: -15.8869 uA.   Upper bound: -16.2348 uA.   Search amplitude: -16.0599 uA: AP.
+Lower bound: -15.8869 uA.   Upper bound: -16.0599 uA.   Search amplitude: -15.9732 uA: AP.
+Lower bound: -15.8869 uA.   Upper bound: -15.9732 uA.   Search amplitude: -15.9300 uA: no AP.
+Binary search ended. Threshold: -15.9300 uA.
+ 
+Run time for search: 0.36 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-13.0083 uA: 	 no AP.
+Increasing amplitude: 	-15.4696 uA: 	 no AP.
+Increasing amplitude: 	-18.3965 uA: 	 AP.
+Lower bound: -15.4696 uA.   Upper bound: -18.3965 uA.   Search amplitude: -16.8697 uA: AP.
+Lower bound: -15.4696 uA.   Upper bound: -16.8697 uA.   Search amplitude: -16.1545 uA: AP.
+Lower bound: -15.4696 uA.   Upper bound: -16.1545 uA.   Search amplitude: -15.8083 uA: no AP.
+Lower bound: -15.8083 uA.   Upper bound: -16.1545 uA.   Search amplitude: -15.9805 uA: AP.
+Lower bound: -15.8083 uA.   Upper bound: -15.9805 uA.   Search amplitude: -15.8942 uA: no AP.
+Lower bound: -15.8942 uA.   Upper bound: -15.9805 uA.   Search amplitude: -15.9373 uA: no AP.
+Binary search ended. Threshold: -15.9373 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.20 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.560 min.
+Results saved in DE_A_RMG/Results/result_351.mat.

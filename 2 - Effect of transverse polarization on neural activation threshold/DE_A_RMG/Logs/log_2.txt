@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	2
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-58.5683 uA: 	 AP.
+Decreasing amplitude: 	-41.4141 uA: 	 no AP.
+Lower bound: -41.4141 uA.   Upper bound: -58.5683 uA.   Search amplitude: -49.2499 uA: no AP.
+Lower bound: -49.2499 uA.   Upper bound: -58.5683 uA.   Search amplitude: -53.7074 uA: AP.
+Lower bound: -49.2499 uA.   Upper bound: -53.7074 uA.   Search amplitude: -51.4304 uA: AP.
+Lower bound: -49.2499 uA.   Upper bound: -51.4304 uA.   Search amplitude: -50.3283 uA: AP.
+Lower bound: -49.2499 uA.   Upper bound: -50.3283 uA.   Search amplitude: -49.7862 uA: no AP.
+Lower bound: -49.7862 uA.   Upper bound: -50.3283 uA.   Search amplitude: -50.0565 uA: no AP.
+Lower bound: -50.0565 uA.   Upper bound: -50.3283 uA.   Search amplitude: -50.1922 uA: no AP.
+Binary search ended. Threshold: -50.1922 uA.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-40.4351 uA: 	 no AP.
+Increasing amplitude: 	-48.0857 uA: 	 no AP.
+Increasing amplitude: 	-57.1839 uA: 	 AP.
+Lower bound: -48.0857 uA.   Upper bound: -57.1839 uA.   Search amplitude: -52.4378 uA: AP.
+Lower bound: -48.0857 uA.   Upper bound: -52.4378 uA.   Search amplitude: -50.2146 uA: AP.
+Lower bound: -48.0857 uA.   Upper bound: -50.2146 uA.   Search amplitude: -49.1387 uA: no AP.
+Lower bound: -49.1387 uA.   Upper bound: -50.2146 uA.   Search amplitude: -49.6737 uA: no AP.
+Lower bound: -49.6737 uA.   Upper bound: -50.2146 uA.   Search amplitude: -49.9435 uA: no AP.
+Lower bound: -49.9435 uA.   Upper bound: -50.2146 uA.   Search amplitude: -50.0789 uA: no AP.
+Binary search ended. Threshold: -50.0789 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.20 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.330 min.
+Results saved in DE_A_RMG/Results/result_2.mat.

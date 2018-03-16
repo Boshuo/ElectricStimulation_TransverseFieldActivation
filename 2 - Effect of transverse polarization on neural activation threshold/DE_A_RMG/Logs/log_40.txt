@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	40
+Pulse duration in ms:	0.0021
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-27.9960 uA: 	 AP.
+Decreasing amplitude: 	-19.7962 uA: 	 no AP.
+Lower bound: -19.7962 uA.   Upper bound: -27.9960 uA.   Search amplitude: -23.5418 uA: no AP.
+Lower bound: -23.5418 uA.   Upper bound: -27.9960 uA.   Search amplitude: -25.6725 uA: no AP.
+Lower bound: -25.6725 uA.   Upper bound: -27.9960 uA.   Search amplitude: -26.8091 uA: no AP.
+Lower bound: -26.8091 uA.   Upper bound: -27.9960 uA.   Search amplitude: -27.3961 uA: no AP.
+Lower bound: -27.3961 uA.   Upper bound: -27.9960 uA.   Search amplitude: -27.6944 uA: AP.
+Lower bound: -27.3961 uA.   Upper bound: -27.6944 uA.   Search amplitude: -27.5449 uA: AP.
+Lower bound: -27.3961 uA.   Upper bound: -27.5449 uA.   Search amplitude: -27.4704 uA: no AP.
+Binary search ended. Threshold: -27.4704 uA.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-22.1303 uA: 	 no AP.
+Increasing amplitude: 	-26.3175 uA: 	 no AP.
+Increasing amplitude: 	-31.2969 uA: 	 AP.
+Lower bound: -26.3175 uA.   Upper bound: -31.2969 uA.   Search amplitude: -28.6994 uA: AP.
+Lower bound: -26.3175 uA.   Upper bound: -28.6994 uA.   Search amplitude: -27.4827 uA: AP.
+Lower bound: -26.3175 uA.   Upper bound: -27.4827 uA.   Search amplitude: -26.8938 uA: no AP.
+Lower bound: -26.8938 uA.   Upper bound: -27.4827 uA.   Search amplitude: -27.1866 uA: no AP.
+Lower bound: -27.1866 uA.   Upper bound: -27.4827 uA.   Search amplitude: -27.3342 uA: no AP.
+Lower bound: -27.3342 uA.   Upper bound: -27.4827 uA.   Search amplitude: -27.4083 uA: no AP.
+Binary search ended. Threshold: -27.4083 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.21 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.350 min.
+Results saved in DE_A_RMG/Results/result_40.mat.

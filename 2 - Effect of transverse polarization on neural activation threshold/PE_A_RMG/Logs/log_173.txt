@@ -1,0 +1,42 @@
+Model type: 	Point electrode
+Parameter ID:	173
+Pulse duration in ms:	0.0310
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-2.1240 uA: 	 no AP.
+Increasing amplitude: 	-3.0039 uA: 	 no AP.
+Increasing amplitude: 	-4.2481 uA: 	 no AP.
+Increasing amplitude: 	-6.0077 uA: 	 AP.
+Lower bound: -4.2481 uA.   Upper bound: -6.0077 uA.   Search amplitude: -5.0519 uA: AP.
+Lower bound: -4.2481 uA.   Upper bound: -5.0519 uA.   Search amplitude: -4.6326 uA: no AP.
+Lower bound: -4.6326 uA.   Upper bound: -5.0519 uA.   Search amplitude: -4.8377 uA: no AP.
+Lower bound: -4.8377 uA.   Upper bound: -5.0519 uA.   Search amplitude: -4.9436 uA: no AP.
+Lower bound: -4.9436 uA.   Upper bound: -5.0519 uA.   Search amplitude: -4.9974 uA: AP.
+Lower bound: -4.9436 uA.   Upper bound: -4.9974 uA.   Search amplitude: -4.9705 uA: no AP.
+Lower bound: -4.9705 uA.   Upper bound: -4.9974 uA.   Search amplitude: -4.9839 uA: AP.
+Binary search ended. Threshold: -4.9839 uA.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-3.9220 uA: 	 no AP.
+Increasing amplitude: 	-4.6640 uA: 	 no AP.
+Increasing amplitude: 	-5.5465 uA: 	 AP.
+Lower bound: -4.6640 uA.   Upper bound: -5.5465 uA.   Search amplitude: -5.0862 uA: AP.
+Lower bound: -4.6640 uA.   Upper bound: -5.0862 uA.   Search amplitude: -4.8705 uA: no AP.
+Lower bound: -4.8705 uA.   Upper bound: -5.0862 uA.   Search amplitude: -4.9772 uA: AP.
+Lower bound: -4.8705 uA.   Upper bound: -4.9772 uA.   Search amplitude: -4.9236 uA: no AP.
+Lower bound: -4.9236 uA.   Upper bound: -4.9772 uA.   Search amplitude: -4.9503 uA: AP.
+Lower bound: -4.9236 uA.   Upper bound: -4.9503 uA.   Search amplitude: -4.9369 uA: no AP.
+Binary search ended. Threshold: -4.9369 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.320 min.
+Results saved in PE_A_RMG/Results/result_173.mat.

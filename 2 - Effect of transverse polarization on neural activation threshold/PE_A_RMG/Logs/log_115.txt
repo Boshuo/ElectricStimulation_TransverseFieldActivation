@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	115
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-6.0953 uA: 	 no AP.
+Increasing amplitude: 	-8.6201 uA: 	 AP.
+Lower bound: -6.0953 uA.   Upper bound: -8.6201 uA.   Search amplitude: -7.2486 uA: AP.
+Lower bound: -6.0953 uA.   Upper bound: -7.2486 uA.   Search amplitude: -6.6470 uA: AP.
+Lower bound: -6.0953 uA.   Upper bound: -6.6470 uA.   Search amplitude: -6.3652 uA: AP.
+Lower bound: -6.0953 uA.   Upper bound: -6.3652 uA.   Search amplitude: -6.2288 uA: no AP.
+Lower bound: -6.2288 uA.   Upper bound: -6.3652 uA.   Search amplitude: -6.2966 uA: no AP.
+Lower bound: -6.2966 uA.   Upper bound: -6.3652 uA.   Search amplitude: -6.3308 uA: AP.
+Lower bound: -6.2966 uA.   Upper bound: -6.3308 uA.   Search amplitude: -6.3137 uA: no AP.
+Binary search ended. Threshold: -6.3137 uA.
+ 
+Run time for search: 0.25 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-5.1808 uA: 	 no AP.
+Increasing amplitude: 	-6.1610 uA: 	 no AP.
+Increasing amplitude: 	-7.3267 uA: 	 AP.
+Lower bound: -6.1610 uA.   Upper bound: -7.3267 uA.   Search amplitude: -6.7186 uA: AP.
+Lower bound: -6.1610 uA.   Upper bound: -6.7186 uA.   Search amplitude: -6.4338 uA: AP.
+Lower bound: -6.1610 uA.   Upper bound: -6.4338 uA.   Search amplitude: -6.2959 uA: AP.
+Lower bound: -6.1610 uA.   Upper bound: -6.2959 uA.   Search amplitude: -6.2281 uA: AP.
+Lower bound: -6.1610 uA.   Upper bound: -6.2281 uA.   Search amplitude: -6.1945 uA: AP.
+Lower bound: -6.1610 uA.   Upper bound: -6.1945 uA.   Search amplitude: -6.1777 uA: no AP.
+Binary search ended. Threshold: -6.1777 uA.
+Percentage difference: -2.154 %.
+ 
+Run time for search: 0.12 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.367 min.
+Results saved in PE_A_RMG/Results/result_115.mat.

@@ -1,0 +1,45 @@
+Model type: 	Disk electrode
+Parameter ID:	206
+Pulse duration in ms:	0.0450
+Axon-Electrode distance in mm:	10.0000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-1.5108 mA: 	 no AP.
+Increasing amplitude: 	-2.1366 mA: 	 no AP.
+Increasing amplitude: 	-3.0216 mA: 	 no AP.
+Increasing amplitude: 	-4.2731 mA: 	 no AP.
+Increasing amplitude: 	-6.0431 mA: 	 no AP.
+Increasing amplitude: 	-8.5463 mA: 	 no AP.
+Increasing amplitude: 	-12.0862 mA: 	 AP.
+Lower bound: -8.5463 mA.   Upper bound: -12.0862 mA.   Search amplitude: -10.1633 mA: AP.
+Lower bound: -8.5463 mA.   Upper bound: -10.1633 mA.   Search amplitude: -9.3198 mA: AP.
+Lower bound: -8.5463 mA.   Upper bound: -9.3198 mA.   Search amplitude: -8.9246 mA: no AP.
+Lower bound: -8.9246 mA.   Upper bound: -9.3198 mA.   Search amplitude: -9.1201 mA: AP.
+Lower bound: -8.9246 mA.   Upper bound: -9.1201 mA.   Search amplitude: -9.0218 mA: AP.
+Lower bound: -8.9246 mA.   Upper bound: -9.0218 mA.   Search amplitude: -8.9731 mA: AP.
+Lower bound: -8.9246 mA.   Upper bound: -8.9731 mA.   Search amplitude: -8.9488 mA: no AP.
+Binary search ended. Threshold: -8.9488 mA.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-7.2772 mA: 	 no AP.
+Increasing amplitude: 	-8.6541 mA: 	 no AP.
+Increasing amplitude: 	-10.2916 mA: 	 AP.
+Lower bound: -8.6541 mA.   Upper bound: -10.2916 mA.   Search amplitude: -9.4374 mA: AP.
+Lower bound: -8.6541 mA.   Upper bound: -9.4374 mA.   Search amplitude: -9.0373 mA: AP.
+Lower bound: -8.6541 mA.   Upper bound: -9.0373 mA.   Search amplitude: -8.8437 mA: no AP.
+Lower bound: -8.8437 mA.   Upper bound: -9.0373 mA.   Search amplitude: -8.9400 mA: no AP.
+Lower bound: -8.9400 mA.   Upper bound: -9.0373 mA.   Search amplitude: -8.9885 mA: AP.
+Lower bound: -8.9400 mA.   Upper bound: -8.9885 mA.   Search amplitude: -8.9642 mA: AP.
+Binary search ended. Threshold: -8.9642 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.18 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.290 min.
+Results saved in DE_A_RMG/Results/result_206.mat.

@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	59
+Pulse duration in ms:	0.0031
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-19.3196 uA: 	 no AP.
+Increasing amplitude: 	-27.3220 uA: 	 AP.
+Lower bound: -19.3196 uA.   Upper bound: -27.3220 uA.   Search amplitude: -22.9749 uA: AP.
+Lower bound: -19.3196 uA.   Upper bound: -22.9749 uA.   Search amplitude: -21.0681 uA: AP.
+Lower bound: -19.3196 uA.   Upper bound: -21.0681 uA.   Search amplitude: -20.1749 uA: AP.
+Lower bound: -19.3196 uA.   Upper bound: -20.1749 uA.   Search amplitude: -19.7426 uA: AP.
+Lower bound: -19.3196 uA.   Upper bound: -19.7426 uA.   Search amplitude: -19.5299 uA: AP.
+Lower bound: -19.3196 uA.   Upper bound: -19.5299 uA.   Search amplitude: -19.4245 uA: no AP.
+Lower bound: -19.4245 uA.   Upper bound: -19.5299 uA.   Search amplitude: -19.4771 uA: AP.
+Binary search ended. Threshold: -19.4771 uA.
+ 
+Run time for search: 0.09 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-15.3270 uA: 	 no AP.
+Increasing amplitude: 	-18.2270 uA: 	 no AP.
+Increasing amplitude: 	-21.6756 uA: 	 AP.
+Lower bound: -18.2270 uA.   Upper bound: -21.6756 uA.   Search amplitude: -19.8767 uA: AP.
+Lower bound: -18.2270 uA.   Upper bound: -19.8767 uA.   Search amplitude: -19.0339 uA: no AP.
+Lower bound: -19.0339 uA.   Upper bound: -19.8767 uA.   Search amplitude: -19.4507 uA: AP.
+Lower bound: -19.0339 uA.   Upper bound: -19.4507 uA.   Search amplitude: -19.2412 uA: no AP.
+Lower bound: -19.2412 uA.   Upper bound: -19.4507 uA.   Search amplitude: -19.3457 uA: AP.
+Lower bound: -19.2412 uA.   Upper bound: -19.3457 uA.   Search amplitude: -19.2934 uA: AP.
+Binary search ended. Threshold: -19.2934 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.250 min.
+Results saved in PE_A_RMG/Results/result_59.mat.

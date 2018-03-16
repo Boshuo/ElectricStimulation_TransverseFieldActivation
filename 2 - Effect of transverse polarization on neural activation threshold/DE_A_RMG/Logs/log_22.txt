@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	22
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-42.1655 uA: 	 no AP.
+Increasing amplitude: 	-59.6310 uA: 	 AP.
+Lower bound: -42.1655 uA.   Upper bound: -59.6310 uA.   Search amplitude: -50.1435 uA: AP.
+Lower bound: -42.1655 uA.   Upper bound: -50.1435 uA.   Search amplitude: -45.9818 uA: AP.
+Lower bound: -42.1655 uA.   Upper bound: -45.9818 uA.   Search amplitude: -44.0323 uA: no AP.
+Lower bound: -44.0323 uA.   Upper bound: -45.9818 uA.   Search amplitude: -44.9965 uA: no AP.
+Lower bound: -44.9965 uA.   Upper bound: -45.9818 uA.   Search amplitude: -45.4865 uA: AP.
+Lower bound: -44.9965 uA.   Upper bound: -45.4865 uA.   Search amplitude: -45.2408 uA: AP.
+Lower bound: -44.9965 uA.   Upper bound: -45.2408 uA.   Search amplitude: -45.1185 uA: AP.
+Binary search ended. Threshold: -45.1185 uA.
+ 
+Run time for search: 0.08 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-37.4641 uA: 	 no AP.
+Increasing amplitude: 	-44.5526 uA: 	 no AP.
+Increasing amplitude: 	-52.9823 uA: 	 AP.
+Lower bound: -44.5526 uA.   Upper bound: -52.9823 uA.   Search amplitude: -48.5849 uA: AP.
+Lower bound: -44.5526 uA.   Upper bound: -48.5849 uA.   Search amplitude: -46.5251 uA: AP.
+Lower bound: -44.5526 uA.   Upper bound: -46.5251 uA.   Search amplitude: -45.5282 uA: AP.
+Lower bound: -44.5526 uA.   Upper bound: -45.5282 uA.   Search amplitude: -45.0377 uA: AP.
+Lower bound: -44.5526 uA.   Upper bound: -45.0377 uA.   Search amplitude: -44.7945 uA: no AP.
+Lower bound: -44.7945 uA.   Upper bound: -45.0377 uA.   Search amplitude: -44.9160 uA: no AP.
+Binary search ended. Threshold: -44.9160 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.225 min.
+Results saved in DE_A_RMG/Results/result_22.mat.

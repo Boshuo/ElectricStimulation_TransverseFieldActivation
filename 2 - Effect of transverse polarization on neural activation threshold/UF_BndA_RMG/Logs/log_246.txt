@@ -1,0 +1,64 @@
+Model type: 	Bend axon, antidromic
+Parameter ID:	246
+Pulse duration in ms:	0.0450
+Field orientation in degrees:	70.0
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	7.0677  V/m: 	 no AP.
+Increasing amplitude: 	7.7073  V/m: 	 no AP.
+Increasing amplitude: 	8.4049  V/m: 	 no AP.
+Increasing amplitude: 	9.1656  V/m: 	 no AP.
+Increasing amplitude: 	9.9952  V/m: 	 no AP.
+Increasing amplitude: 	10.8998  V/m: 	 no AP.
+Increasing amplitude: 	11.8864  V/m: 	 no AP.
+Increasing amplitude: 	12.9622  V/m: 	 no AP.
+Increasing amplitude: 	14.1353  V/m: 	 no AP.
+Increasing amplitude: 	15.4147  V/m: 	 no AP.
+Increasing amplitude: 	16.8098  V/m: 	 no AP.
+Increasing amplitude: 	18.3313  V/m: 	 no AP.
+Increasing amplitude: 	19.9904  V/m: 	 no AP.
+Increasing amplitude: 	21.7997  V/m: 	 no AP.
+Increasing amplitude: 	23.7727  V/m: 	 no AP.
+Increasing amplitude: 	25.9243  V/m: 	 no AP.
+Increasing amplitude: 	28.2707  V/m: 	 no AP.
+Increasing amplitude: 	30.8294  V/m: 	 no AP.
+Increasing amplitude: 	33.6197  V/m: 	 no AP.
+Increasing amplitude: 	36.6625  V/m: 	 no AP.
+Increasing amplitude: 	39.9808  V/m: 	 no AP.
+Increasing amplitude: 	43.5993  V/m: 	 no AP.
+Increasing amplitude: 	47.5454  V/m: 	 no AP.
+Increasing amplitude: 	51.8486  V/m: 	 no AP.
+Increasing amplitude: 	56.5413  V/m: 	 no AP.
+Increasing amplitude: 	61.6588  V/m: 	 no AP.
+Increasing amplitude: 	67.2394  V/m: 	 AP.
+Lower bound: 61.6588  V/m.   Upper bound: 67.2394  V/m.   Search amplitude: 64.3886  V/m: AP.
+Lower bound: 61.6588  V/m.   Upper bound: 64.3886  V/m.   Search amplitude: 63.0089  V/m: no AP.
+Lower bound: 63.0089  V/m.   Upper bound: 64.3886  V/m.   Search amplitude: 63.6950  V/m: no AP.
+Lower bound: 63.6950  V/m.   Upper bound: 64.3886  V/m.   Search amplitude: 64.0409  V/m: no AP.
+Lower bound: 64.0409  V/m.   Upper bound: 64.3886  V/m.   Search amplitude: 64.2145  V/m: AP.
+Binary search ended. Threshold: 64.2145  V/m.
+ 
+Run time for search: 0.41 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	51.9253  V/m: 	 no AP.
+Increasing amplitude: 	54.2242  V/m: 	 no AP.
+Increasing amplitude: 	56.6249  V/m: 	 no AP.
+Increasing amplitude: 	59.1319  V/m: 	 no AP.
+Increasing amplitude: 	61.7499  V/m: 	 no AP.
+Increasing amplitude: 	64.4838  V/m: 	 AP.
+Lower bound: 61.7499  V/m.   Upper bound: 64.4838  V/m.   Search amplitude: 63.1020  V/m: no AP.
+Lower bound: 63.1020  V/m.   Upper bound: 64.4838  V/m.   Search amplitude: 63.7892  V/m: no AP.
+Lower bound: 63.7892  V/m.   Upper bound: 64.4838  V/m.   Search amplitude: 64.1356  V/m: AP.
+Lower bound: 63.7892  V/m.   Upper bound: 64.1356  V/m.   Search amplitude: 63.9621  V/m: no AP.
+Binary search ended. Threshold: 63.9621  V/m.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.36 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.766 min.
+Results saved in UF_BndA_RMG/Results/result_246.mat.

@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	60
+Pulse duration in ms:	0.0031
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-19.1547 uA: 	 no AP.
+Increasing amplitude: 	-27.0889 uA: 	 AP.
+Lower bound: -19.1547 uA.   Upper bound: -27.0889 uA.   Search amplitude: -22.7789 uA: no AP.
+Lower bound: -22.7789 uA.   Upper bound: -27.0889 uA.   Search amplitude: -24.8406 uA: AP.
+Lower bound: -22.7789 uA.   Upper bound: -24.8406 uA.   Search amplitude: -23.7874 uA: no AP.
+Lower bound: -23.7874 uA.   Upper bound: -24.8406 uA.   Search amplitude: -24.3083 uA: no AP.
+Lower bound: -24.3083 uA.   Upper bound: -24.8406 uA.   Search amplitude: -24.5730 uA: no AP.
+Lower bound: -24.5730 uA.   Upper bound: -24.8406 uA.   Search amplitude: -24.7064 uA: AP.
+Lower bound: -24.5730 uA.   Upper bound: -24.7064 uA.   Search amplitude: -24.6396 uA: no AP.
+Binary search ended. Threshold: -24.6396 uA.
+ 
+Run time for search: 0.12 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-20.5150 uA: 	 no AP.
+Increasing amplitude: 	-24.3965 uA: 	 no AP.
+Increasing amplitude: 	-29.0125 uA: 	 AP.
+Lower bound: -24.3965 uA.   Upper bound: -29.0125 uA.   Search amplitude: -26.6046 uA: AP.
+Lower bound: -24.3965 uA.   Upper bound: -26.6046 uA.   Search amplitude: -25.4767 uA: AP.
+Lower bound: -24.3965 uA.   Upper bound: -25.4767 uA.   Search amplitude: -24.9308 uA: AP.
+Lower bound: -24.3965 uA.   Upper bound: -24.9308 uA.   Search amplitude: -24.6622 uA: AP.
+Lower bound: -24.3965 uA.   Upper bound: -24.6622 uA.   Search amplitude: -24.5290 uA: no AP.
+Lower bound: -24.5290 uA.   Upper bound: -24.6622 uA.   Search amplitude: -24.5955 uA: no AP.
+Binary search ended. Threshold: -24.5955 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.243 min.
+Results saved in DE_A_RMG/Results/result_60.mat.

@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	42
+Pulse duration in ms:	0.0021
+Axon-Electrode distance in mm:	0.1000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-30.8837 uA: 	 no AP.
+Increasing amplitude: 	-43.6761 uA: 	 AP.
+Lower bound: -30.8837 uA.   Upper bound: -43.6761 uA.   Search amplitude: -36.7271 uA: no AP.
+Lower bound: -36.7271 uA.   Upper bound: -43.6761 uA.   Search amplitude: -40.0512 uA: no AP.
+Lower bound: -40.0512 uA.   Upper bound: -43.6761 uA.   Search amplitude: -41.8244 uA: no AP.
+Lower bound: -41.8244 uA.   Upper bound: -43.6761 uA.   Search amplitude: -42.7402 uA: AP.
+Lower bound: -41.8244 uA.   Upper bound: -42.7402 uA.   Search amplitude: -42.2798 uA: no AP.
+Lower bound: -42.2798 uA.   Upper bound: -42.7402 uA.   Search amplitude: -42.5094 uA: no AP.
+Lower bound: -42.5094 uA.   Upper bound: -42.7402 uA.   Search amplitude: -42.6247 uA: AP.
+Binary search ended. Threshold: -42.6247 uA.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-34.0124 uA: 	 no AP.
+Increasing amplitude: 	-40.4478 uA: 	 no AP.
+Increasing amplitude: 	-48.1008 uA: 	 AP.
+Lower bound: -40.4478 uA.   Upper bound: -48.1008 uA.   Search amplitude: -44.1086 uA: AP.
+Lower bound: -40.4478 uA.   Upper bound: -44.1086 uA.   Search amplitude: -42.2385 uA: no AP.
+Lower bound: -42.2385 uA.   Upper bound: -44.1086 uA.   Search amplitude: -43.1634 uA: AP.
+Lower bound: -42.2385 uA.   Upper bound: -43.1634 uA.   Search amplitude: -42.6985 uA: AP.
+Lower bound: -42.2385 uA.   Upper bound: -42.6985 uA.   Search amplitude: -42.4679 uA: no AP.
+Lower bound: -42.4679 uA.   Upper bound: -42.6985 uA.   Search amplitude: -42.5830 uA: AP.
+Binary search ended. Threshold: -42.5830 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.344 min.
+Results saved in DE_A_RMG/Results/result_42.mat.

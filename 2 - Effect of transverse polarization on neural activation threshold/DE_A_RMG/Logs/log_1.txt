@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	1
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-55.8233 uA: 	 AP.
+Decreasing amplitude: 	-39.4730 uA: 	 no AP.
+Lower bound: -39.4730 uA.   Upper bound: -55.8233 uA.   Search amplitude: -46.9416 uA: AP.
+Lower bound: -39.4730 uA.   Upper bound: -46.9416 uA.   Search amplitude: -43.0456 uA: no AP.
+Lower bound: -43.0456 uA.   Upper bound: -46.9416 uA.   Search amplitude: -44.9514 uA: AP.
+Lower bound: -43.0456 uA.   Upper bound: -44.9514 uA.   Search amplitude: -43.9882 uA: no AP.
+Lower bound: -43.9882 uA.   Upper bound: -44.9514 uA.   Search amplitude: -44.4672 uA: no AP.
+Lower bound: -44.4672 uA.   Upper bound: -44.9514 uA.   Search amplitude: -44.7087 uA: no AP.
+Lower bound: -44.7087 uA.   Upper bound: -44.9514 uA.   Search amplitude: -44.8299 uA: AP.
+Binary search ended. Threshold: -44.8299 uA.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-36.2504 uA: 	 no AP.
+Increasing amplitude: 	-43.1093 uA: 	 no AP.
+Increasing amplitude: 	-51.2658 uA: 	 AP.
+Lower bound: -43.1093 uA.   Upper bound: -51.2658 uA.   Search amplitude: -47.0110 uA: AP.
+Lower bound: -43.1093 uA.   Upper bound: -47.0110 uA.   Search amplitude: -45.0179 uA: AP.
+Lower bound: -43.1093 uA.   Upper bound: -45.0179 uA.   Search amplitude: -44.0532 uA: no AP.
+Lower bound: -44.0532 uA.   Upper bound: -45.0179 uA.   Search amplitude: -44.5329 uA: no AP.
+Lower bound: -44.5329 uA.   Upper bound: -45.0179 uA.   Search amplitude: -44.7747 uA: AP.
+Lower bound: -44.5329 uA.   Upper bound: -44.7747 uA.   Search amplitude: -44.6537 uA: no AP.
+Binary search ended. Threshold: -44.6537 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.329 min.
+Results saved in DE_A_RMG/Results/result_1.mat.

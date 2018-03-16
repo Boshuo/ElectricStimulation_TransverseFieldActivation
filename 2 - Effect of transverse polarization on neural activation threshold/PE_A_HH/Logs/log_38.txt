@@ -1,0 +1,59 @@
+Model type: 	Point electrode
+Parameter ID:	38
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	31.0000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-72.1668  A: 	 no AP.
+Increasing amplitude: 	-0.1021 kA: 	 no AP.
+Increasing amplitude: 	-0.1443 kA: 	 no AP.
+Increasing amplitude: 	-0.2041 kA: 	 no AP.
+Increasing amplitude: 	-0.2887 kA: 	 no AP.
+Increasing amplitude: 	-0.4082 kA: 	 no AP.
+Increasing amplitude: 	-0.5773 kA: 	 no AP.
+Increasing amplitude: 	-0.8165 kA: 	 no AP.
+Increasing amplitude: 	-1.1547 kA: 	 no AP.
+Increasing amplitude: 	-1.6329 kA: 	 no AP.
+Increasing amplitude: 	-2.3093 kA: 	 no AP.
+Increasing amplitude: 	-3.2659 kA: 	 no AP.
+Increasing amplitude: 	-4.6187 kA: 	 no AP.
+Increasing amplitude: 	-6.5318 kA: 	 AP.
+Lower bound: -4.6187 kA.   Upper bound: -6.5318 kA.   Search amplitude: -5.4926 kA: AP.
+Lower bound: -4.6187 kA.   Upper bound: -5.4926 kA.   Search amplitude: -5.0367 kA: no AP.
+Lower bound: -5.0367 kA.   Upper bound: -5.4926 kA.   Search amplitude: -5.2597 kA: no AP.
+Lower bound: -5.2597 kA.   Upper bound: -5.4926 kA.   Search amplitude: -5.3749 kA: no AP.
+Lower bound: -5.3749 kA.   Upper bound: -5.4926 kA.   Search amplitude: -5.4334 kA: AP.
+Lower bound: -5.3749 kA.   Upper bound: -5.4334 kA.   Search amplitude: -5.4041 kA: no AP.
+Lower bound: -5.4041 kA.   Upper bound: -5.4334 kA.   Search amplitude: -5.4187 kA: no AP.
+Binary search ended. Threshold: -5.4187 kA.
+ 
+Run time for search: 10.07 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-0.6430 kA: 	 no AP.
+Increasing amplitude: 	-0.7012 kA: 	 no AP.
+Increasing amplitude: 	-0.7646 kA: 	 no AP.
+Increasing amplitude: 	-0.8338 kA: 	 no AP.
+Increasing amplitude: 	-0.9093 kA: 	 no AP.
+Increasing amplitude: 	-0.9916 kA: 	 no AP.
+Increasing amplitude: 	-1.0814 kA: 	 no AP.
+Increasing amplitude: 	-1.1792 kA: 	 no AP.
+Increasing amplitude: 	-1.2860 kA: 	 no AP.
+Increasing amplitude: 	-1.4024 kA: 	 no AP.
+Increasing amplitude: 	-1.5293 kA: 	 AP.
+Lower bound: -1.4024 kA.   Upper bound: -1.5293 kA.   Search amplitude: -1.4644 kA: AP.
+Lower bound: -1.4024 kA.   Upper bound: -1.4644 kA.   Search amplitude: -1.4331 kA: no AP.
+Lower bound: -1.4331 kA.   Upper bound: -1.4644 kA.   Search amplitude: -1.4487 kA: no AP.
+Lower bound: -1.4487 kA.   Upper bound: -1.4644 kA.   Search amplitude: -1.4565 kA: no AP.
+Lower bound: -1.4565 kA.   Upper bound: -1.4644 kA.   Search amplitude: -1.4605 kA: no AP.
+Binary search ended. Threshold: -1.4605 kA.
+Percentage difference: -73.047 %.
+ 
+Run time for search: 63.47 min.
+ 
+-----------------------------------------------------------
+Total run time: 73.539 min.
+Results saved in PE_A_HH/Results/result_38.mat.

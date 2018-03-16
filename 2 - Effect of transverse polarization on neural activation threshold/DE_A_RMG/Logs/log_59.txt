@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	59
+Pulse duration in ms:	0.0031
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-19.0307 uA: 	 no AP.
+Increasing amplitude: 	-26.9135 uA: 	 AP.
+Lower bound: -19.0307 uA.   Upper bound: -26.9135 uA.   Search amplitude: -22.6314 uA: AP.
+Lower bound: -19.0307 uA.   Upper bound: -22.6314 uA.   Search amplitude: -20.7531 uA: AP.
+Lower bound: -19.0307 uA.   Upper bound: -20.7531 uA.   Search amplitude: -19.8732 uA: no AP.
+Lower bound: -19.8732 uA.   Upper bound: -20.7531 uA.   Search amplitude: -20.3084 uA: no AP.
+Lower bound: -20.3084 uA.   Upper bound: -20.7531 uA.   Search amplitude: -20.5296 uA: AP.
+Lower bound: -20.3084 uA.   Upper bound: -20.5296 uA.   Search amplitude: -20.4187 uA: no AP.
+Lower bound: -20.4187 uA.   Upper bound: -20.5296 uA.   Search amplitude: -20.4740 uA: no AP.
+Binary search ended. Threshold: -20.4740 uA.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-16.4940 uA: 	 no AP.
+Increasing amplitude: 	-19.6148 uA: 	 no AP.
+Increasing amplitude: 	-23.3260 uA: 	 AP.
+Lower bound: -19.6148 uA.   Upper bound: -23.3260 uA.   Search amplitude: -21.3901 uA: AP.
+Lower bound: -19.6148 uA.   Upper bound: -21.3901 uA.   Search amplitude: -20.4832 uA: AP.
+Lower bound: -19.6148 uA.   Upper bound: -20.4832 uA.   Search amplitude: -20.0443 uA: no AP.
+Lower bound: -20.0443 uA.   Upper bound: -20.4832 uA.   Search amplitude: -20.2625 uA: no AP.
+Lower bound: -20.2625 uA.   Upper bound: -20.4832 uA.   Search amplitude: -20.3726 uA: no AP.
+Lower bound: -20.3726 uA.   Upper bound: -20.4832 uA.   Search amplitude: -20.4278 uA: no AP.
+Binary search ended. Threshold: -20.4278 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.260 min.
+Results saved in DE_A_RMG/Results/result_59.mat.

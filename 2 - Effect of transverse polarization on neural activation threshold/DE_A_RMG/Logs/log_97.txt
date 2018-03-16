@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	97
+Pulse duration in ms:	0.0068
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-8.7871 uA: 	 no AP.
+Increasing amplitude: 	-12.4268 uA: 	 AP.
+Lower bound: -8.7871 uA.   Upper bound: -12.4268 uA.   Search amplitude: -10.4497 uA: no AP.
+Lower bound: -10.4497 uA.   Upper bound: -12.4268 uA.   Search amplitude: -11.3954 uA: no AP.
+Lower bound: -11.3954 uA.   Upper bound: -12.4268 uA.   Search amplitude: -11.8999 uA: no AP.
+Lower bound: -11.8999 uA.   Upper bound: -12.4268 uA.   Search amplitude: -12.1605 uA: AP.
+Lower bound: -11.8999 uA.   Upper bound: -12.1605 uA.   Search amplitude: -12.0295 uA: no AP.
+Lower bound: -12.0295 uA.   Upper bound: -12.1605 uA.   Search amplitude: -12.0949 uA: AP.
+Lower bound: -12.0295 uA.   Upper bound: -12.0949 uA.   Search amplitude: -12.0621 uA: AP.
+Binary search ended. Threshold: -12.0621 uA.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-9.6910 uA: 	 no AP.
+Increasing amplitude: 	-11.5247 uA: 	 no AP.
+Increasing amplitude: 	-13.7052 uA: 	 AP.
+Lower bound: -11.5247 uA.   Upper bound: -13.7052 uA.   Search amplitude: -12.5677 uA: AP.
+Lower bound: -11.5247 uA.   Upper bound: -12.5677 uA.   Search amplitude: -12.0349 uA: AP.
+Lower bound: -11.5247 uA.   Upper bound: -12.0349 uA.   Search amplitude: -11.7770 uA: no AP.
+Lower bound: -11.7770 uA.   Upper bound: -12.0349 uA.   Search amplitude: -11.9053 uA: no AP.
+Lower bound: -11.9053 uA.   Upper bound: -12.0349 uA.   Search amplitude: -11.9699 uA: no AP.
+Lower bound: -11.9699 uA.   Upper bound: -12.0349 uA.   Search amplitude: -12.0024 uA: no AP.
+Binary search ended. Threshold: -12.0024 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.22 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.389 min.
+Results saved in DE_A_RMG/Results/result_97.mat.

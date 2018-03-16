@@ -1,0 +1,65 @@
+objref g
+objref log_file
+strdef PW_str, log_ID_str
+objref r
+r = new Random()
+
+for ii = 0, R_num-1 {	// allows testing of multiple radii
+	radius = radius_init * 2^ii
+	if (is_axon == 1) {length = length_axon
+	} else { length = radius*2 }
+	set_morph(radius, length)
+	
+	summary_file.printf("\nRadius of %s is %1.2f um.\n", compart_str, radius)
+	summary_file.printf("Morphology set with new radius of %1.1f um. \n", radius )
+				
+	for jj = 0, (PW_vec.size() - 1) {
+		parameter_ID = (ii * PW_vec.size() + jj + 1)
+		
+		PW = PW_vec.x[jj]
+		tstop = PW + t_after_pulse
+		sprint(log_ID_str,"%s/%s/%d.txt", folder_str,compart_str,parameter_ID)
+		
+		log_file = new File()             //state that f1, f2, and f3 are pointers to the File class
+		log_file.wopen(log_ID_str)   		//open file1 for reading
+		
+		if (PW < 0.05) { 
+			sprint(PW_str,"%1.1f us", PW*1000 ) 
+			dt_set = PW /5
+		} else {
+			dt_set = dt_default
+			if (PW < 1) { 
+				sprint(PW_str,"%1.0f us", PW*1000 ) 				
+			} else {
+				sprint(PW_str,"%1.1f ms",PW)  
+			} 
+		}		
+		
+		set_stim_vector(PW, dt_set)
+		
+		print "    Pulse width is ", PW_str, " . Parameter ID is ",  parameter_ID
+		log_file.printf("Compartment type: %s \nParameter ID: %d \nRadius: %1.2f um \nPulse duration: %s \n", compart_str, parameter_ID, radius, PW_str)
+		log_file.printf("\n-----------------------------------------------------------\n")
+		log_file.printf("Search for threshold...\n")
+		
+		//E_init = 10/radius	* r.normal(1,0.005)
+		if (PW <1) {			// Set initial search amplitude. Include some noise
+			E_init = 1/PW/radius	* r.normal(1,0.005)
+		} else { 
+			E_init = 1/radius	* r.normal(1,0.005)
+		}
+		lb = E_init / factor^n_binary_step
+		ub = E_init * factor^n_binary_step 
+		
+		E_threshold = find_threshold(E_init, lb, ub)
+		
+		log_file.printf("\n-----------------------------------------------------------\n")
+		log_file.printf("Threshold search fininished: \n\tE-field: %1.5f mV/mm\n\tE*R: %1.5f mV\n", E_threshold * 10^3, E_threshold*radius)
+		log_file.close()
+		summary_file.printf("Pulse width is %s. Parameter ID is %d. Threshold is %1.6f mV/mm.\n", PW_str, parameter_ID, E_threshold * 10^3) 
+		print "    Threshold search fininished ", E_threshold * 10^3, " mV/mm ", E_threshold*radius, " mV"
+		print ""
+	}
+	print ""	
+}
+summary_file.close()

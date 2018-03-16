@@ -1,0 +1,59 @@
+objref log_file
+objref v_plot
+
+// threshold finding
+func find_threshold() { local low, up, amp 
+	amp = $1		// initial search amplitude
+	low = $2 		// lower search limit
+	high = $3       // upper search limit
+	v_plot = new Graph()
+	v_plot.size(0,PW + 5,-75,40)
+	
+	if (amp == 0) { amp = 1 }
+	log_file.printf("Stimulation with amplitude %2.4f\n",amp)		
+	print "        Stimulation with amplitude ",amp		
+	found_lb = 0
+	found_ub = 0
+	while ( !found_lb || !found_ub)  { // first find upper or lower bound for threshold
+		//print amp, $2, low, $3, high
+		if (stimulate(amp)) {		// upper bound is amplitude results in AP
+			high = amp
+			amp = amp/factor
+			log_file.printf("AP. Decreasing amplitude to %2.4f\n",amp)	
+			found_ub = 1
+			print "        AP. Decreasing amplitude to ", amp	
+		} else {
+			low = amp
+			amp = amp * factor
+			log_file.printf("No AP. Increasing amplitude to %2.4f\n",amp)
+			found_lb = 1
+			print "        No AP. Increasing amplitude to ", amp	
+			//printf("4-amp is %f, low is %f, high is %f\n",dummystim.amp,low,high)
+		}
+		//if (stoprun) {print "stoprun" return $&1}
+		if (low >$3 || high < $2 ) return 0
+	}
+	
+	print " "
+	amp = sqrt(high * low)	// use geometric mean of lower and upper bounds
+	//log_file.printf("Lower and upper bounds established: %2.3f   %2.3f. Testing new amplitude: %2.3f\n",low, high, amp)
+	while ( (high / low - 1 ) > th_acc) {
+		log_file.printf("Testing new amplitude: %2.5f.   ", amp)
+		print "        Testing new amplitude ", amp	
+		if (stimulate(amp)) {
+			high = amp
+			log_file.printf("AP. New lower and upper bounds: %2.5f   %2.5f. \n",low, high)
+			print "        AP. Decreasing upper bound ", high	
+		} else {
+			low = amp
+			log_file.printf("No AP. New lower and upper bounds: %2.5f   %2.5f. \n", low, high)
+			print "        No AP. Increasing lower bound ", low	
+		}
+		amp = sqrt(high * low)
+		if (stoprun) break
+	}
+	
+	return high
+}
+
+

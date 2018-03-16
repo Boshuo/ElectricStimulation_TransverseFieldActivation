@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	39
+Pulse duration in ms:	0.0021
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-28.2469 uA: 	 AP.
+Decreasing amplitude: 	-19.9736 uA: 	 AP.
+Decreasing amplitude: 	-14.1235 uA: 	 no AP.
+Lower bound: -14.1235 uA.   Upper bound: -19.9736 uA.   Search amplitude: -16.7957 uA: no AP.
+Lower bound: -16.7957 uA.   Upper bound: -19.9736 uA.   Search amplitude: -18.3159 uA: AP.
+Lower bound: -16.7957 uA.   Upper bound: -18.3159 uA.   Search amplitude: -17.5393 uA: AP.
+Lower bound: -16.7957 uA.   Upper bound: -17.5393 uA.   Search amplitude: -17.1635 uA: no AP.
+Lower bound: -17.1635 uA.   Upper bound: -17.5393 uA.   Search amplitude: -17.3504 uA: AP.
+Lower bound: -17.1635 uA.   Upper bound: -17.3504 uA.   Search amplitude: -17.2567 uA: AP.
+Lower bound: -17.1635 uA.   Upper bound: -17.2567 uA.   Search amplitude: -17.2100 uA: no AP.
+Binary search ended. Threshold: -17.2100 uA.
+ 
+Run time for search: 0.45 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-14.1218 uA: 	 no AP.
+Increasing amplitude: 	-16.7938 uA: 	 no AP.
+Increasing amplitude: 	-19.9713 uA: 	 AP.
+Lower bound: -16.7938 uA.   Upper bound: -19.9713 uA.   Search amplitude: -18.3137 uA: AP.
+Lower bound: -16.7938 uA.   Upper bound: -18.3137 uA.   Search amplitude: -17.5373 uA: AP.
+Lower bound: -16.7938 uA.   Upper bound: -17.5373 uA.   Search amplitude: -17.1615 uA: AP.
+Lower bound: -16.7938 uA.   Upper bound: -17.1615 uA.   Search amplitude: -16.9766 uA: no AP.
+Lower bound: -16.9766 uA.   Upper bound: -17.1615 uA.   Search amplitude: -17.0688 uA: AP.
+Lower bound: -16.9766 uA.   Upper bound: -17.0688 uA.   Search amplitude: -17.0227 uA: AP.
+Binary search ended. Threshold: -17.0227 uA.
+Percentage difference: -1.356 %.
+ 
+Run time for search: 0.18 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.639 min.
+Results saved in PE_A_RMG/Results/result_39.mat.

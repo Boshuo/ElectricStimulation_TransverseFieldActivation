@@ -1,0 +1,46 @@
+Model type: 	Point electrode
+Parameter ID:	281
+Pulse duration in ms:	0.2100
+Axon-Electrode distance in mm:	6.8000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-0.2380 mA: 	 no AP.
+Increasing amplitude: 	-0.3366 mA: 	 no AP.
+Increasing amplitude: 	-0.4761 mA: 	 no AP.
+Increasing amplitude: 	-0.6732 mA: 	 no AP.
+Increasing amplitude: 	-0.9521 mA: 	 no AP.
+Increasing amplitude: 	-1.3465 mA: 	 no AP.
+Increasing amplitude: 	-1.9042 mA: 	 no AP.
+Increasing amplitude: 	-2.6930 mA: 	 AP.
+Lower bound: -1.9042 mA.   Upper bound: -2.6930 mA.   Search amplitude: -2.2645 mA: no AP.
+Lower bound: -2.2645 mA.   Upper bound: -2.6930 mA.   Search amplitude: -2.4695 mA: AP.
+Lower bound: -2.2645 mA.   Upper bound: -2.4695 mA.   Search amplitude: -2.3648 mA: no AP.
+Lower bound: -2.3648 mA.   Upper bound: -2.4695 mA.   Search amplitude: -2.4166 mA: AP.
+Lower bound: -2.3648 mA.   Upper bound: -2.4166 mA.   Search amplitude: -2.3905 mA: AP.
+Lower bound: -2.3648 mA.   Upper bound: -2.3905 mA.   Search amplitude: -2.3776 mA: no AP.
+Lower bound: -2.3776 mA.   Upper bound: -2.3905 mA.   Search amplitude: -2.3841 mA: no AP.
+Binary search ended. Threshold: -2.3841 mA.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-1.9213 mA: 	 no AP.
+Increasing amplitude: 	-2.2848 mA: 	 no AP.
+Increasing amplitude: 	-2.7171 mA: 	 AP.
+Lower bound: -2.2848 mA.   Upper bound: -2.7171 mA.   Search amplitude: -2.4916 mA: AP.
+Lower bound: -2.2848 mA.   Upper bound: -2.4916 mA.   Search amplitude: -2.3860 mA: no AP.
+Lower bound: -2.3860 mA.   Upper bound: -2.4916 mA.   Search amplitude: -2.4382 mA: AP.
+Lower bound: -2.3860 mA.   Upper bound: -2.4382 mA.   Search amplitude: -2.4120 mA: AP.
+Lower bound: -2.3860 mA.   Upper bound: -2.4120 mA.   Search amplitude: -2.3989 mA: AP.
+Lower bound: -2.3860 mA.   Upper bound: -2.3989 mA.   Search amplitude: -2.3925 mA: AP.
+Binary search ended. Threshold: -2.3925 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.333 min.
+Results saved in PE_A_RMG/Results/result_281.mat.

@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	20
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-39.9290 uA: 	 AP.
+Decreasing amplitude: 	-28.2341 uA: 	 no AP.
+Lower bound: -28.2341 uA.   Upper bound: -39.9290 uA.   Search amplitude: -33.5762 uA: AP.
+Lower bound: -28.2341 uA.   Upper bound: -33.5762 uA.   Search amplitude: -30.7895 uA: no AP.
+Lower bound: -30.7895 uA.   Upper bound: -33.5762 uA.   Search amplitude: -32.1526 uA: no AP.
+Lower bound: -32.1526 uA.   Upper bound: -33.5762 uA.   Search amplitude: -32.8567 uA: no AP.
+Lower bound: -32.8567 uA.   Upper bound: -33.5762 uA.   Search amplitude: -33.2145 uA: no AP.
+Lower bound: -33.2145 uA.   Upper bound: -33.5762 uA.   Search amplitude: -33.3948 uA: AP.
+Lower bound: -33.2145 uA.   Upper bound: -33.3948 uA.   Search amplitude: -33.3045 uA: AP.
+Binary search ended. Threshold: -33.3045 uA.
+ 
+Run time for search: 0.10 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-26.9308 uA: 	 no AP.
+Increasing amplitude: 	-32.0263 uA: 	 no AP.
+Increasing amplitude: 	-38.0859 uA: 	 AP.
+Lower bound: -32.0263 uA.   Upper bound: -38.0859 uA.   Search amplitude: -34.9249 uA: AP.
+Lower bound: -32.0263 uA.   Upper bound: -34.9249 uA.   Search amplitude: -33.4442 uA: AP.
+Lower bound: -32.0263 uA.   Upper bound: -33.4442 uA.   Search amplitude: -32.7275 uA: no AP.
+Lower bound: -32.7275 uA.   Upper bound: -33.4442 uA.   Search amplitude: -33.0839 uA: no AP.
+Lower bound: -33.0839 uA.   Upper bound: -33.4442 uA.   Search amplitude: -33.2636 uA: no AP.
+Lower bound: -33.2636 uA.   Upper bound: -33.4442 uA.   Search amplitude: -33.3538 uA: AP.
+Binary search ended. Threshold: -33.3538 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.246 min.
+Results saved in DE_A_RMG/Results/result_20.mat.

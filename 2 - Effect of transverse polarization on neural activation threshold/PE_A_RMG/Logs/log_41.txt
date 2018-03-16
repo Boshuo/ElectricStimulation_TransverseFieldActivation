@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	41
+Pulse duration in ms:	0.0021
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-31.0330 uA: 	 no AP.
+Increasing amplitude: 	-43.8872 uA: 	 AP.
+Lower bound: -31.0330 uA.   Upper bound: -43.8872 uA.   Search amplitude: -36.9046 uA: no AP.
+Lower bound: -36.9046 uA.   Upper bound: -43.8872 uA.   Search amplitude: -40.2448 uA: no AP.
+Lower bound: -40.2448 uA.   Upper bound: -43.8872 uA.   Search amplitude: -42.0266 uA: AP.
+Lower bound: -40.2448 uA.   Upper bound: -42.0266 uA.   Search amplitude: -41.1260 uA: AP.
+Lower bound: -40.2448 uA.   Upper bound: -41.1260 uA.   Search amplitude: -40.6830 uA: no AP.
+Lower bound: -40.6830 uA.   Upper bound: -41.1260 uA.   Search amplitude: -40.9039 uA: AP.
+Lower bound: -40.6830 uA.   Upper bound: -40.9039 uA.   Search amplitude: -40.7933 uA: no AP.
+Binary search ended. Threshold: -40.7933 uA.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-33.8559 uA: 	 no AP.
+Increasing amplitude: 	-40.2617 uA: 	 no AP.
+Increasing amplitude: 	-47.8795 uA: 	 AP.
+Lower bound: -40.2617 uA.   Upper bound: -47.8795 uA.   Search amplitude: -43.9057 uA: AP.
+Lower bound: -40.2617 uA.   Upper bound: -43.9057 uA.   Search amplitude: -42.0443 uA: AP.
+Lower bound: -40.2617 uA.   Upper bound: -42.0443 uA.   Search amplitude: -41.1433 uA: AP.
+Lower bound: -40.2617 uA.   Upper bound: -41.1433 uA.   Search amplitude: -40.7001 uA: no AP.
+Lower bound: -40.7001 uA.   Upper bound: -41.1433 uA.   Search amplitude: -40.9211 uA: AP.
+Lower bound: -40.7001 uA.   Upper bound: -40.9211 uA.   Search amplitude: -40.8105 uA: AP.
+Binary search ended. Threshold: -40.8105 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.16 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.306 min.
+Results saved in PE_A_RMG/Results/result_41.mat.

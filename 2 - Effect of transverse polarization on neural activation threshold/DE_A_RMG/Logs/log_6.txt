@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	6
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.2100
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-84.6425 uA: 	 no AP.
+Increasing amplitude: 	-0.1197 mA: 	 no AP.
+Increasing amplitude: 	-0.1693 mA: 	 AP.
+Lower bound: -0.1197 mA.   Upper bound: -0.1693 mA.   Search amplitude: -0.1424 mA: no AP.
+Lower bound: -0.1424 mA.   Upper bound: -0.1693 mA.   Search amplitude: -0.1552 mA: no AP.
+Lower bound: -0.1552 mA.   Upper bound: -0.1693 mA.   Search amplitude: -0.1621 mA: AP.
+Lower bound: -0.1552 mA.   Upper bound: -0.1621 mA.   Search amplitude: -0.1586 mA: no AP.
+Lower bound: -0.1586 mA.   Upper bound: -0.1621 mA.   Search amplitude: -0.1604 mA: AP.
+Lower bound: -0.1586 mA.   Upper bound: -0.1604 mA.   Search amplitude: -0.1595 mA: AP.
+Lower bound: -0.1586 mA.   Upper bound: -0.1595 mA.   Search amplitude: -0.1591 mA: AP.
+Binary search ended. Threshold: -0.1591 mA.
+ 
+Run time for search: 0.20 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-0.1298 mA: 	 no AP.
+Increasing amplitude: 	-0.1544 mA: 	 no AP.
+Increasing amplitude: 	-0.1836 mA: 	 AP.
+Lower bound: -0.1544 mA.   Upper bound: -0.1836 mA.   Search amplitude: -0.1684 mA: AP.
+Lower bound: -0.1544 mA.   Upper bound: -0.1684 mA.   Search amplitude: -0.1612 mA: AP.
+Lower bound: -0.1544 mA.   Upper bound: -0.1612 mA.   Search amplitude: -0.1578 mA: no AP.
+Lower bound: -0.1578 mA.   Upper bound: -0.1612 mA.   Search amplitude: -0.1595 mA: AP.
+Lower bound: -0.1578 mA.   Upper bound: -0.1595 mA.   Search amplitude: -0.1587 mA: no AP.
+Lower bound: -0.1587 mA.   Upper bound: -0.1595 mA.   Search amplitude: -0.1591 mA: AP.
+Binary search ended. Threshold: -0.1591 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.20 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.405 min.
+Results saved in DE_A_RMG/Results/result_6.mat.

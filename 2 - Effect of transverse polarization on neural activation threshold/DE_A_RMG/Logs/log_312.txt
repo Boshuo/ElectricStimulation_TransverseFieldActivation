@@ -1,0 +1,45 @@
+Model type: 	Disk electrode
+Parameter ID:	312
+Pulse duration in ms:	0.4500
+Axon-Electrode distance in mm:	0.4500
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-1.2884 uA: 	 no AP.
+Increasing amplitude: 	-1.8221 uA: 	 no AP.
+Increasing amplitude: 	-2.5769 uA: 	 no AP.
+Increasing amplitude: 	-3.6443 uA: 	 no AP.
+Increasing amplitude: 	-5.1538 uA: 	 no AP.
+Increasing amplitude: 	-7.2885 uA: 	 no AP.
+Increasing amplitude: 	-10.3075 uA: 	 AP.
+Lower bound: -7.2885 uA.   Upper bound: -10.3075 uA.   Search amplitude: -8.6676 uA: no AP.
+Lower bound: -8.6676 uA.   Upper bound: -10.3075 uA.   Search amplitude: -9.4520 uA: no AP.
+Lower bound: -9.4520 uA.   Upper bound: -10.3075 uA.   Search amplitude: -9.8705 uA: no AP.
+Lower bound: -9.8705 uA.   Upper bound: -10.3075 uA.   Search amplitude: -10.0867 uA: AP.
+Lower bound: -9.8705 uA.   Upper bound: -10.0867 uA.   Search amplitude: -9.9780 uA: no AP.
+Lower bound: -9.9780 uA.   Upper bound: -10.0867 uA.   Search amplitude: -10.0322 uA: no AP.
+Lower bound: -10.0322 uA.   Upper bound: -10.0867 uA.   Search amplitude: -10.0594 uA: AP.
+Binary search ended. Threshold: -10.0594 uA.
+ 
+Run time for search: 0.26 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-7.9321 uA: 	 no AP.
+Increasing amplitude: 	-9.4329 uA: 	 no AP.
+Increasing amplitude: 	-11.2177 uA: 	 AP.
+Lower bound: -9.4329 uA.   Upper bound: -11.2177 uA.   Search amplitude: -10.2867 uA: AP.
+Lower bound: -9.4329 uA.   Upper bound: -10.2867 uA.   Search amplitude: -9.8506 uA: no AP.
+Lower bound: -9.8506 uA.   Upper bound: -10.2867 uA.   Search amplitude: -10.0663 uA: AP.
+Lower bound: -9.8506 uA.   Upper bound: -10.0663 uA.   Search amplitude: -9.9578 uA: no AP.
+Lower bound: -9.9578 uA.   Upper bound: -10.0663 uA.   Search amplitude: -10.0119 uA: no AP.
+Lower bound: -10.0119 uA.   Upper bound: -10.0663 uA.   Search amplitude: -10.0390 uA: no AP.
+Binary search ended. Threshold: -10.0390 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.21 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.465 min.
+Results saved in DE_A_RMG/Results/result_312.mat.

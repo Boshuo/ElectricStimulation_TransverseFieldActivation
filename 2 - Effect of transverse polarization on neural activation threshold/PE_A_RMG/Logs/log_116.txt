@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	116
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-6.1329 uA: 	 no AP.
+Increasing amplitude: 	-8.6732 uA: 	 no AP.
+Increasing amplitude: 	-12.2658 uA: 	 AP.
+Lower bound: -8.6732 uA.   Upper bound: -12.2658 uA.   Search amplitude: -10.3143 uA: AP.
+Lower bound: -8.6732 uA.   Upper bound: -10.3143 uA.   Search amplitude: -9.4582 uA: AP.
+Lower bound: -8.6732 uA.   Upper bound: -9.4582 uA.   Search amplitude: -9.0572 uA: no AP.
+Lower bound: -9.0572 uA.   Upper bound: -9.4582 uA.   Search amplitude: -9.2555 uA: no AP.
+Lower bound: -9.2555 uA.   Upper bound: -9.4582 uA.   Search amplitude: -9.3563 uA: AP.
+Lower bound: -9.2555 uA.   Upper bound: -9.3563 uA.   Search amplitude: -9.3058 uA: no AP.
+Lower bound: -9.3058 uA.   Upper bound: -9.3563 uA.   Search amplitude: -9.3310 uA: no AP.
+Binary search ended. Threshold: -9.3310 uA.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-7.3627 uA: 	 no AP.
+Increasing amplitude: 	-8.7558 uA: 	 no AP.
+Increasing amplitude: 	-10.4125 uA: 	 AP.
+Lower bound: -8.7558 uA.   Upper bound: -10.4125 uA.   Search amplitude: -9.5483 uA: AP.
+Lower bound: -8.7558 uA.   Upper bound: -9.5483 uA.   Search amplitude: -9.1434 uA: no AP.
+Lower bound: -9.1434 uA.   Upper bound: -9.5483 uA.   Search amplitude: -9.3437 uA: AP.
+Lower bound: -9.1434 uA.   Upper bound: -9.3437 uA.   Search amplitude: -9.2430 uA: no AP.
+Lower bound: -9.2430 uA.   Upper bound: -9.3437 uA.   Search amplitude: -9.2932 uA: AP.
+Lower bound: -9.2430 uA.   Upper bound: -9.2932 uA.   Search amplitude: -9.2681 uA: AP.
+Binary search ended. Threshold: -9.2681 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.258 min.
+Results saved in PE_A_RMG/Results/result_116.mat.

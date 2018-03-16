@@ -1,0 +1,88 @@
+Model type: 	Axon terminal with synapse
+Parameter ID:	402
+Pulse duration in ms:	0.4500
+Field orientation in degrees:	81.0
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	2.4879  V/m: 	 no AP.
+Increasing amplitude: 	2.7131  V/m: 	 no AP.
+Increasing amplitude: 	2.9586  V/m: 	 no AP.
+Increasing amplitude: 	3.2264  V/m: 	 no AP.
+Increasing amplitude: 	3.5184  V/m: 	 no AP.
+Increasing amplitude: 	3.8369  V/m: 	 no AP.
+Increasing amplitude: 	4.1842  V/m: 	 no AP.
+Increasing amplitude: 	4.5628  V/m: 	 no AP.
+Increasing amplitude: 	4.9758  V/m: 	 no AP.
+Increasing amplitude: 	5.4262  V/m: 	 no AP.
+Increasing amplitude: 	5.9173  V/m: 	 no AP.
+Increasing amplitude: 	6.4528  V/m: 	 no AP.
+Increasing amplitude: 	7.0369  V/m: 	 no AP.
+Increasing amplitude: 	7.6738  V/m: 	 no AP.
+Increasing amplitude: 	8.3683  V/m: 	 no AP.
+Increasing amplitude: 	9.1257  V/m: 	 no AP.
+Increasing amplitude: 	9.9516  V/m: 	 no AP.
+Increasing amplitude: 	10.8523  V/m: 	 no AP.
+Increasing amplitude: 	11.8346  V/m: 	 no AP.
+Increasing amplitude: 	12.9057  V/m: 	 no AP.
+Increasing amplitude: 	14.0738  V/m: 	 no AP.
+Increasing amplitude: 	15.3475  V/m: 	 no AP.
+Increasing amplitude: 	16.7366  V/m: 	 no AP.
+Increasing amplitude: 	18.2514  V/m: 	 no AP.
+Increasing amplitude: 	19.9033  V/m: 	 no AP.
+Increasing amplitude: 	21.7047  V/m: 	 no AP.
+Increasing amplitude: 	23.6691  V/m: 	 no AP.
+Increasing amplitude: 	25.8114  V/m: 	 no AP.
+Increasing amplitude: 	28.1475  V/m: 	 no AP.
+Increasing amplitude: 	30.6951  V/m: 	 no AP.
+Increasing amplitude: 	33.4732  V/m: 	 no AP.
+Increasing amplitude: 	36.5028  V/m: 	 no AP.
+Increasing amplitude: 	39.8066  V/m: 	 no AP.
+Increasing amplitude: 	43.4094  V/m: 	 no AP.
+Increasing amplitude: 	47.3383  V/m: 	 no AP.
+Increasing amplitude: 	51.6227  V/m: 	 no AP.
+Increasing amplitude: 	56.2950  V/m: 	 no AP.
+Increasing amplitude: 	61.3901  V/m: 	 no AP.
+Increasing amplitude: 	66.9464  V/m: 	 no AP.
+Increasing amplitude: 	73.0056  V/m: 	 no AP.
+Increasing amplitude: 	79.6132  V/m: 	 no AP.
+Increasing amplitude: 	86.8188  V/m: 	 no AP.
+Increasing amplitude: 	94.6765  V/m: 	 no AP.
+Increasing amplitude: 	0.1032 kV/m: 	 no AP.
+Increasing amplitude: 	0.1126 kV/m: 	 no AP.
+Increasing amplitude: 	0.1228 kV/m: 	 no AP.
+Increasing amplitude: 	0.1339 kV/m: 	 no AP.
+Increasing amplitude: 	0.1460 kV/m: 	 no AP.
+Increasing amplitude: 	0.1592 kV/m: 	 no AP.
+Increasing amplitude: 	0.1736 kV/m: 	 AP.
+Lower bound: 0.1592 kV/m.   Upper bound: 0.1736 kV/m.   Search amplitude: 0.1663 kV/m: no AP.
+Lower bound: 0.1663 kV/m.   Upper bound: 0.1736 kV/m.   Search amplitude: 0.1699 kV/m: no AP.
+Lower bound: 0.1699 kV/m.   Upper bound: 0.1736 kV/m.   Search amplitude: 0.1718 kV/m: AP.
+Lower bound: 0.1699 kV/m.   Upper bound: 0.1718 kV/m.   Search amplitude: 0.1708 kV/m: no AP.
+Lower bound: 0.1708 kV/m.   Upper bound: 0.1718 kV/m.   Search amplitude: 0.1713 kV/m: no AP.
+Binary search ended. Threshold: 0.1713 kV/m.
+ 
+Run time for search: 0.80 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	0.1352 kV/m: 	 no AP.
+Increasing amplitude: 	0.1412 kV/m: 	 no AP.
+Increasing amplitude: 	0.1474 kV/m: 	 no AP.
+Increasing amplitude: 	0.1539 kV/m: 	 no AP.
+Increasing amplitude: 	0.1607 kV/m: 	 no AP.
+Increasing amplitude: 	0.1679 kV/m: 	 no AP.
+Increasing amplitude: 	0.1753 kV/m: 	 AP.
+Lower bound: 0.1679 kV/m.   Upper bound: 0.1753 kV/m.   Search amplitude: 0.1715 kV/m: AP.
+Lower bound: 0.1679 kV/m.   Upper bound: 0.1715 kV/m.   Search amplitude: 0.1697 kV/m: no AP.
+Lower bound: 0.1697 kV/m.   Upper bound: 0.1715 kV/m.   Search amplitude: 0.1706 kV/m: AP.
+Lower bound: 0.1697 kV/m.   Upper bound: 0.1706 kV/m.   Search amplitude: 0.1701 kV/m: AP.
+Binary search ended. Threshold: 0.1701 kV/m.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.32 min.
+ 
+-----------------------------------------------------------
+Total run time: 1.115 min.
+Results saved in UF_TrmS_RMG/Results/result_402.mat.

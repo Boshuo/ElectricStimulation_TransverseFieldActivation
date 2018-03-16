@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	23
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	0.1000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-46.2135 uA: 	 no AP.
+Increasing amplitude: 	-65.3558 uA: 	 AP.
+Lower bound: -46.2135 uA.   Upper bound: -65.3558 uA.   Search amplitude: -54.9574 uA: no AP.
+Lower bound: -54.9574 uA.   Upper bound: -65.3558 uA.   Search amplitude: -59.9315 uA: AP.
+Lower bound: -54.9574 uA.   Upper bound: -59.9315 uA.   Search amplitude: -57.3906 uA: no AP.
+Lower bound: -57.3906 uA.   Upper bound: -59.9315 uA.   Search amplitude: -58.6473 uA: AP.
+Lower bound: -57.3906 uA.   Upper bound: -58.6473 uA.   Search amplitude: -58.0155 uA: AP.
+Lower bound: -57.3906 uA.   Upper bound: -58.0155 uA.   Search amplitude: -57.7022 uA: no AP.
+Lower bound: -57.7022 uA.   Upper bound: -58.0155 uA.   Search amplitude: -57.8587 uA: no AP.
+Binary search ended. Threshold: -57.8587 uA.
+ 
+Run time for search: 0.08 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-46.2935 uA: 	 no AP.
+Increasing amplitude: 	-55.0526 uA: 	 no AP.
+Increasing amplitude: 	-65.4689 uA: 	 AP.
+Lower bound: -55.0526 uA.   Upper bound: -65.4689 uA.   Search amplitude: -60.0353 uA: AP.
+Lower bound: -55.0526 uA.   Upper bound: -60.0353 uA.   Search amplitude: -57.4900 uA: no AP.
+Lower bound: -57.4900 uA.   Upper bound: -60.0353 uA.   Search amplitude: -58.7488 uA: AP.
+Lower bound: -57.4900 uA.   Upper bound: -58.7488 uA.   Search amplitude: -58.1160 uA: AP.
+Lower bound: -57.4900 uA.   Upper bound: -58.1160 uA.   Search amplitude: -57.8021 uA: no AP.
+Lower bound: -57.8021 uA.   Upper bound: -58.1160 uA.   Search amplitude: -57.9589 uA: AP.
+Binary search ended. Threshold: -57.9589 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.07 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.151 min.
+Results saved in DE_A_RMG/Results/result_23.mat.

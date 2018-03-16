@@ -1,0 +1,27 @@
+strdef folder_str
+
+// R_num = 1			// number of radii, > 1 allows testing of multiple radii
+// sprint(folder_str,"Results_3um")
+// is_axon = 1 		// 1 for axon, else soma
+// radius_init = 3		// Default of 3 um
+
+R_num = 6			// Test more than one radii
+sprint(folder_str,"NEURON results")
+
+is_axon = 1 		// 1 for axon, else soma
+radius_init = 0.25 	// Main loop will run all pulse width for R = 0.25, 0.5, 1, 2, 4,  8 um. Axon
+// is_axon = 0 		// 1 for axon, else soma
+// radius_init = 0.5 	// Main loop will run all pulse width for R = 0.5,  1,   2, 4, 8, 16 um. Soma
+
+
+load_file("nrngui.hoc")
+
+load_file("global_parameter.hoc")	// creates global parameter for the simulation
+load_file("create_cell.hoc")		// specifies topological and biophysical properties of the cell, geometry of each compartment is default
+
+load_file("set_morph_func.hoc")		// procedure to change morphology of the cell for TP
+load_file("set_time_vec.hoc")		// procedure set time vector and stimulus vector
+load_file("stimulate.hoc")			// function: runs simulation, determines whether cell fires
+load_file("find_thresh.hoc")		// function: threshold search, calls stimulate
+
+load_file("parameter_loop.hoc")		// Main parameter loop to search threshold for all pulse durations

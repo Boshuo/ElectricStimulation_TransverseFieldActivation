@@ -1,0 +1,43 @@
+Model type: 	Disk electrode
+Parameter ID:	68
+Pulse duration in ms:	0.0031
+Axon-Electrode distance in mm:	1.4000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-0.3901 mA: 	 no AP.
+Increasing amplitude: 	-0.5517 mA: 	 no AP.
+Increasing amplitude: 	-0.7802 mA: 	 no AP.
+Increasing amplitude: 	-1.1033 mA: 	 no AP.
+Increasing amplitude: 	-1.5603 mA: 	 AP.
+Lower bound: -1.1033 mA.   Upper bound: -1.5603 mA.   Search amplitude: -1.3121 mA: AP.
+Lower bound: -1.1033 mA.   Upper bound: -1.3121 mA.   Search amplitude: -1.2032 mA: AP.
+Lower bound: -1.1033 mA.   Upper bound: -1.2032 mA.   Search amplitude: -1.1522 mA: AP.
+Lower bound: -1.1033 mA.   Upper bound: -1.1522 mA.   Search amplitude: -1.1275 mA: no AP.
+Lower bound: -1.1275 mA.   Upper bound: -1.1522 mA.   Search amplitude: -1.1398 mA: AP.
+Lower bound: -1.1275 mA.   Upper bound: -1.1398 mA.   Search amplitude: -1.1336 mA: AP.
+Lower bound: -1.1275 mA.   Upper bound: -1.1336 mA.   Search amplitude: -1.1305 mA: AP.
+Binary search ended. Threshold: -1.1305 mA.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-0.9080 mA: 	 no AP.
+Increasing amplitude: 	-1.0798 mA: 	 no AP.
+Increasing amplitude: 	-1.2841 mA: 	 AP.
+Lower bound: -1.0798 mA.   Upper bound: -1.2841 mA.   Search amplitude: -1.1775 mA: AP.
+Lower bound: -1.0798 mA.   Upper bound: -1.1775 mA.   Search amplitude: -1.1276 mA: no AP.
+Lower bound: -1.1276 mA.   Upper bound: -1.1775 mA.   Search amplitude: -1.1523 mA: AP.
+Lower bound: -1.1276 mA.   Upper bound: -1.1523 mA.   Search amplitude: -1.1399 mA: AP.
+Lower bound: -1.1276 mA.   Upper bound: -1.1399 mA.   Search amplitude: -1.1337 mA: AP.
+Lower bound: -1.1276 mA.   Upper bound: -1.1337 mA.   Search amplitude: -1.1306 mA: AP.
+Binary search ended. Threshold: -1.1306 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.264 min.
+Results saved in DE_A_RMG/Results/result_68.mat.

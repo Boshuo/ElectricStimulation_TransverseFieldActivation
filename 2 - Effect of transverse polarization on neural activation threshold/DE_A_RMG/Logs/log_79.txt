@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	79
+Pulse duration in ms:	0.0045
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-13.2594 uA: 	 no AP.
+Increasing amplitude: 	-18.7516 uA: 	 no AP.
+Increasing amplitude: 	-26.5187 uA: 	 AP.
+Lower bound: -18.7516 uA.   Upper bound: -26.5187 uA.   Search amplitude: -22.2995 uA: AP.
+Lower bound: -18.7516 uA.   Upper bound: -22.2995 uA.   Search amplitude: -20.4487 uA: AP.
+Lower bound: -18.7516 uA.   Upper bound: -20.4487 uA.   Search amplitude: -19.5818 uA: AP.
+Lower bound: -18.7516 uA.   Upper bound: -19.5818 uA.   Search amplitude: -19.1622 uA: AP.
+Lower bound: -18.7516 uA.   Upper bound: -19.1622 uA.   Search amplitude: -18.9558 uA: no AP.
+Lower bound: -18.9558 uA.   Upper bound: -19.1622 uA.   Search amplitude: -19.0587 uA: AP.
+Lower bound: -18.9558 uA.   Upper bound: -19.0587 uA.   Search amplitude: -19.0072 uA: no AP.
+Binary search ended. Threshold: -19.0072 uA.
+ 
+Run time for search: 0.22 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-15.8254 uA: 	 no AP.
+Increasing amplitude: 	-18.8196 uA: 	 no AP.
+Increasing amplitude: 	-22.3805 uA: 	 AP.
+Lower bound: -18.8196 uA.   Upper bound: -22.3805 uA.   Search amplitude: -20.5230 uA: AP.
+Lower bound: -18.8196 uA.   Upper bound: -20.5230 uA.   Search amplitude: -19.6529 uA: AP.
+Lower bound: -18.8196 uA.   Upper bound: -19.6529 uA.   Search amplitude: -19.2317 uA: AP.
+Lower bound: -18.8196 uA.   Upper bound: -19.2317 uA.   Search amplitude: -19.0246 uA: no AP.
+Lower bound: -19.0246 uA.   Upper bound: -19.2317 uA.   Search amplitude: -19.1279 uA: AP.
+Lower bound: -19.0246 uA.   Upper bound: -19.1279 uA.   Search amplitude: -19.0762 uA: AP.
+Binary search ended. Threshold: -19.0762 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.387 min.
+Results saved in DE_A_RMG/Results/result_79.mat.

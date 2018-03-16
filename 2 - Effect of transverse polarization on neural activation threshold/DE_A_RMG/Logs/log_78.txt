@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	78
+Pulse duration in ms:	0.0045
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-13.1735 uA: 	 no AP.
+Increasing amplitude: 	-18.6302 uA: 	 AP.
+Lower bound: -13.1735 uA.   Upper bound: -18.6302 uA.   Search amplitude: -15.6660 uA: no AP.
+Lower bound: -15.6660 uA.   Upper bound: -18.6302 uA.   Search amplitude: -17.0839 uA: AP.
+Lower bound: -15.6660 uA.   Upper bound: -17.0839 uA.   Search amplitude: -16.3596 uA: AP.
+Lower bound: -15.6660 uA.   Upper bound: -16.3596 uA.   Search amplitude: -16.0091 uA: AP.
+Lower bound: -15.6660 uA.   Upper bound: -16.0091 uA.   Search amplitude: -15.8366 uA: no AP.
+Lower bound: -15.8366 uA.   Upper bound: -16.0091 uA.   Search amplitude: -15.9226 uA: AP.
+Lower bound: -15.8366 uA.   Upper bound: -15.9226 uA.   Search amplitude: -15.8796 uA: AP.
+Binary search ended. Threshold: -15.8796 uA.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-12.7581 uA: 	 no AP.
+Increasing amplitude: 	-15.1720 uA: 	 no AP.
+Increasing amplitude: 	-18.0426 uA: 	 AP.
+Lower bound: -15.1720 uA.   Upper bound: -18.0426 uA.   Search amplitude: -16.5452 uA: AP.
+Lower bound: -15.1720 uA.   Upper bound: -16.5452 uA.   Search amplitude: -15.8437 uA: AP.
+Lower bound: -15.1720 uA.   Upper bound: -15.8437 uA.   Search amplitude: -15.5042 uA: no AP.
+Lower bound: -15.5042 uA.   Upper bound: -15.8437 uA.   Search amplitude: -15.6730 uA: no AP.
+Lower bound: -15.6730 uA.   Upper bound: -15.8437 uA.   Search amplitude: -15.7581 uA: no AP.
+Lower bound: -15.7581 uA.   Upper bound: -15.8437 uA.   Search amplitude: -15.8009 uA: no AP.
+Binary search ended. Threshold: -15.8009 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.18 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.327 min.
+Results saved in DE_A_RMG/Results/result_78.mat.

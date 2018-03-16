@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	117
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-6.0806 uA: 	 no AP.
+Increasing amplitude: 	-8.5992 uA: 	 no AP.
+Increasing amplitude: 	-12.1611 uA: 	 AP.
+Lower bound: -8.5992 uA.   Upper bound: -12.1611 uA.   Search amplitude: -10.2263 uA: no AP.
+Lower bound: -10.2263 uA.   Upper bound: -12.1611 uA.   Search amplitude: -11.1518 uA: no AP.
+Lower bound: -11.1518 uA.   Upper bound: -12.1611 uA.   Search amplitude: -11.6455 uA: AP.
+Lower bound: -11.1518 uA.   Upper bound: -11.6455 uA.   Search amplitude: -11.3960 uA: no AP.
+Lower bound: -11.3960 uA.   Upper bound: -11.6455 uA.   Search amplitude: -11.5201 uA: AP.
+Lower bound: -11.3960 uA.   Upper bound: -11.5201 uA.   Search amplitude: -11.4579 uA: AP.
+Lower bound: -11.3960 uA.   Upper bound: -11.4579 uA.   Search amplitude: -11.4269 uA: AP.
+Binary search ended. Threshold: -11.4269 uA.
+ 
+Run time for search: 0.08 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-9.4883 uA: 	 no AP.
+Increasing amplitude: 	-11.2836 uA: 	 no AP.
+Increasing amplitude: 	-13.4185 uA: 	 AP.
+Lower bound: -11.2836 uA.   Upper bound: -13.4185 uA.   Search amplitude: -12.3048 uA: AP.
+Lower bound: -11.2836 uA.   Upper bound: -12.3048 uA.   Search amplitude: -11.7831 uA: AP.
+Lower bound: -11.2836 uA.   Upper bound: -11.7831 uA.   Search amplitude: -11.5307 uA: AP.
+Lower bound: -11.2836 uA.   Upper bound: -11.5307 uA.   Search amplitude: -11.4064 uA: no AP.
+Lower bound: -11.4064 uA.   Upper bound: -11.5307 uA.   Search amplitude: -11.4684 uA: AP.
+Lower bound: -11.4064 uA.   Upper bound: -11.4684 uA.   Search amplitude: -11.4374 uA: AP.
+Binary search ended. Threshold: -11.4374 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.12 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.200 min.
+Results saved in DE_A_RMG/Results/result_117.mat.

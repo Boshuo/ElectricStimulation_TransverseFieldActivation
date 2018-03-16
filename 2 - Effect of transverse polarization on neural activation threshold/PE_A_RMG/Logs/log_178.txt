@@ -1,0 +1,46 @@
+Model type: 	Point electrode
+Parameter ID:	178
+Pulse duration in ms:	0.0310
+Axon-Electrode distance in mm:	0.3100
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-4.0964 uA: 	 no AP.
+Increasing amplitude: 	-5.7932 uA: 	 no AP.
+Increasing amplitude: 	-8.1928 uA: 	 no AP.
+Increasing amplitude: 	-11.5863 uA: 	 no AP.
+Increasing amplitude: 	-16.3855 uA: 	 no AP.
+Increasing amplitude: 	-23.1727 uA: 	 no AP.
+Increasing amplitude: 	-32.7711 uA: 	 no AP.
+Increasing amplitude: 	-46.3453 uA: 	 AP.
+Lower bound: -32.7711 uA.   Upper bound: -46.3453 uA.   Search amplitude: -38.9716 uA: no AP.
+Lower bound: -38.9716 uA.   Upper bound: -46.3453 uA.   Search amplitude: -42.4988 uA: AP.
+Lower bound: -38.9716 uA.   Upper bound: -42.4988 uA.   Search amplitude: -40.6970 uA: no AP.
+Lower bound: -40.6970 uA.   Upper bound: -42.4988 uA.   Search amplitude: -41.5882 uA: no AP.
+Lower bound: -41.5882 uA.   Upper bound: -42.4988 uA.   Search amplitude: -42.0410 uA: no AP.
+Lower bound: -42.0410 uA.   Upper bound: -42.4988 uA.   Search amplitude: -42.2693 uA: AP.
+Lower bound: -42.0410 uA.   Upper bound: -42.2693 uA.   Search amplitude: -42.1550 uA: AP.
+Binary search ended. Threshold: -42.1550 uA.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-34.1602 uA: 	 no AP.
+Increasing amplitude: 	-40.6235 uA: 	 no AP.
+Increasing amplitude: 	-48.3098 uA: 	 AP.
+Lower bound: -40.6235 uA.   Upper bound: -48.3098 uA.   Search amplitude: -44.3003 uA: AP.
+Lower bound: -40.6235 uA.   Upper bound: -44.3003 uA.   Search amplitude: -42.4221 uA: AP.
+Lower bound: -40.6235 uA.   Upper bound: -42.4221 uA.   Search amplitude: -41.5131 uA: no AP.
+Lower bound: -41.5131 uA.   Upper bound: -42.4221 uA.   Search amplitude: -41.9651 uA: no AP.
+Lower bound: -41.9651 uA.   Upper bound: -42.4221 uA.   Search amplitude: -42.1930 uA: AP.
+Lower bound: -41.9651 uA.   Upper bound: -42.1930 uA.   Search amplitude: -42.0789 uA: no AP.
+Binary search ended. Threshold: -42.0789 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.16 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.349 min.
+Results saved in PE_A_RMG/Results/result_178.mat.

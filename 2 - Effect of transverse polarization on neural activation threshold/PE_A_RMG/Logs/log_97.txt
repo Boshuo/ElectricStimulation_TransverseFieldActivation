@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	97
+Pulse duration in ms:	0.0068
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-8.9205 uA: 	 no AP.
+Increasing amplitude: 	-12.6154 uA: 	 AP.
+Lower bound: -8.9205 uA.   Upper bound: -12.6154 uA.   Search amplitude: -10.6083 uA: no AP.
+Lower bound: -10.6083 uA.   Upper bound: -12.6154 uA.   Search amplitude: -11.5684 uA: no AP.
+Lower bound: -11.5684 uA.   Upper bound: -12.6154 uA.   Search amplitude: -12.0806 uA: AP.
+Lower bound: -11.5684 uA.   Upper bound: -12.0806 uA.   Search amplitude: -11.8217 uA: AP.
+Lower bound: -11.5684 uA.   Upper bound: -11.8217 uA.   Search amplitude: -11.6944 uA: no AP.
+Lower bound: -11.6944 uA.   Upper bound: -11.8217 uA.   Search amplitude: -11.7579 uA: AP.
+Lower bound: -11.6944 uA.   Upper bound: -11.7579 uA.   Search amplitude: -11.7261 uA: AP.
+Binary search ended. Threshold: -11.7261 uA.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-9.2275 uA: 	 no AP.
+Increasing amplitude: 	-10.9734 uA: 	 no AP.
+Increasing amplitude: 	-13.0497 uA: 	 AP.
+Lower bound: -10.9734 uA.   Upper bound: -13.0497 uA.   Search amplitude: -11.9666 uA: AP.
+Lower bound: -10.9734 uA.   Upper bound: -11.9666 uA.   Search amplitude: -11.4593 uA: no AP.
+Lower bound: -11.4593 uA.   Upper bound: -11.9666 uA.   Search amplitude: -11.7102 uA: AP.
+Lower bound: -11.4593 uA.   Upper bound: -11.7102 uA.   Search amplitude: -11.5841 uA: AP.
+Lower bound: -11.4593 uA.   Upper bound: -11.5841 uA.   Search amplitude: -11.5215 uA: no AP.
+Lower bound: -11.5215 uA.   Upper bound: -11.5841 uA.   Search amplitude: -11.5527 uA: no AP.
+Binary search ended. Threshold: -11.5527 uA.
+Percentage difference: -1.211 %.
+ 
+Run time for search: 0.18 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.333 min.
+Results saved in PE_A_RMG/Results/result_97.mat.

@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	3
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-58.9500 uA: 	 no AP.
+Increasing amplitude: 	-83.3679 uA: 	 AP.
+Lower bound: -58.9500 uA.   Upper bound: -83.3679 uA.   Search amplitude: -70.1038 uA: AP.
+Lower bound: -58.9500 uA.   Upper bound: -70.1038 uA.   Search amplitude: -64.2855 uA: AP.
+Lower bound: -58.9500 uA.   Upper bound: -64.2855 uA.   Search amplitude: -61.5600 uA: AP.
+Lower bound: -58.9500 uA.   Upper bound: -61.5600 uA.   Search amplitude: -60.2409 uA: no AP.
+Lower bound: -60.2409 uA.   Upper bound: -61.5600 uA.   Search amplitude: -60.8968 uA: AP.
+Lower bound: -60.2409 uA.   Upper bound: -60.8968 uA.   Search amplitude: -60.5680 uA: no AP.
+Lower bound: -60.5680 uA.   Upper bound: -60.8968 uA.   Search amplitude: -60.7322 uA: AP.
+Binary search ended. Threshold: -60.7322 uA.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-50.4289 uA: 	 no AP.
+Increasing amplitude: 	-59.9704 uA: 	 no AP.
+Increasing amplitude: 	-71.3173 uA: 	 AP.
+Lower bound: -59.9704 uA.   Upper bound: -71.3173 uA.   Search amplitude: -65.3982 uA: AP.
+Lower bound: -59.9704 uA.   Upper bound: -65.3982 uA.   Search amplitude: -62.6255 uA: AP.
+Lower bound: -59.9704 uA.   Upper bound: -62.6255 uA.   Search amplitude: -61.2836 uA: AP.
+Lower bound: -59.9704 uA.   Upper bound: -61.2836 uA.   Search amplitude: -60.6235 uA: AP.
+Lower bound: -59.9704 uA.   Upper bound: -60.6235 uA.   Search amplitude: -60.2961 uA: no AP.
+Lower bound: -60.2961 uA.   Upper bound: -60.6235 uA.   Search amplitude: -60.4595 uA: no AP.
+Binary search ended. Threshold: -60.4595 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.339 min.
+Results saved in DE_A_RMG/Results/result_3.mat.

@@ -1,0 +1,42 @@
+objref all, TP_sec, axial_sec
+all = new SectionList()
+TP_sec = new SectionList()
+
+// Order for creating compartments
+	// TOPOLOGY
+	// SUBSETS
+	// GEOMETRY
+	// BIOPHYSICS
+	// NSEG
+
+// TP compartment
+create center		// hub
+access center
+all.append()
+Ra_center = 35.4	
+extra_e_center = 0  // extracellular potential is 0
+
+create TPcompart[n_TP]	// Spoke compartments
+for ii = 0, n_TP - 1 { 
+	connect TPcompart[ii](0), center(0.5) 	// connect to node of hub
+	TPcompart[ii] {all.append() TP_sec.append()}
+}
+Ra_TP = 1e-3				// Intracellular resistivity for TP compartments, a small value
+
+forsec all { 
+	nseg = 1
+	cm = 1
+	insert hhh				// HH channels, the mod file was modified from the default to include a larger table, line 92:
+							// TABLE minf, mtau, hinf, htau, ninf, ntau DEPEND celsius FROM -2000 TO 2000 WITH 5001
+	insert extracellular {e_extracellular = extra_e_center}
+}
+
+Ra = Ra_center
+forsec TP_sec {
+	Ra = Ra_TP
+}
+
+summary_file.printf("Mulit-compartment structure created.\n\n")
+print "Mulit-compartment structure created. Topology as follows:"
+topology()
+print " "

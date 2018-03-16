@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	135
+Pulse duration in ms:	0.0140
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-4.4409 uA: 	 no AP.
+Increasing amplitude: 	-6.2804 uA: 	 no AP.
+Increasing amplitude: 	-8.8819 uA: 	 AP.
+Lower bound: -6.2804 uA.   Upper bound: -8.8819 uA.   Search amplitude: -7.4687 uA: no AP.
+Lower bound: -7.4687 uA.   Upper bound: -8.8819 uA.   Search amplitude: -8.1447 uA: AP.
+Lower bound: -7.4687 uA.   Upper bound: -8.1447 uA.   Search amplitude: -7.7994 uA: AP.
+Lower bound: -7.4687 uA.   Upper bound: -7.7994 uA.   Search amplitude: -7.6323 uA: no AP.
+Lower bound: -7.6323 uA.   Upper bound: -7.7994 uA.   Search amplitude: -7.7154 uA: AP.
+Lower bound: -7.6323 uA.   Upper bound: -7.7154 uA.   Search amplitude: -7.6737 uA: no AP.
+Lower bound: -7.6737 uA.   Upper bound: -7.7154 uA.   Search amplitude: -7.6945 uA: no AP.
+Binary search ended. Threshold: -7.6945 uA.
+ 
+Run time for search: 0.08 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-6.0714 uA: 	 no AP.
+Increasing amplitude: 	-7.2202 uA: 	 no AP.
+Increasing amplitude: 	-8.5863 uA: 	 AP.
+Lower bound: -7.2202 uA.   Upper bound: -8.5863 uA.   Search amplitude: -7.8737 uA: AP.
+Lower bound: -7.2202 uA.   Upper bound: -7.8737 uA.   Search amplitude: -7.5398 uA: no AP.
+Lower bound: -7.5398 uA.   Upper bound: -7.8737 uA.   Search amplitude: -7.7049 uA: AP.
+Lower bound: -7.5398 uA.   Upper bound: -7.7049 uA.   Search amplitude: -7.6219 uA: no AP.
+Lower bound: -7.6219 uA.   Upper bound: -7.7049 uA.   Search amplitude: -7.6633 uA: AP.
+Lower bound: -7.6219 uA.   Upper bound: -7.6633 uA.   Search amplitude: -7.6426 uA: AP.
+Binary search ended. Threshold: -7.6426 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.10 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.187 min.
+Results saved in PE_A_RMG/Results/result_135.mat.

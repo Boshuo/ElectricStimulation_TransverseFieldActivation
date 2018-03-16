@@ -1,0 +1,45 @@
+Model type: 	Point electrode
+Parameter ID:	121
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.3100
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-11.8278 uA: 	 no AP.
+Increasing amplitude: 	-16.7270 uA: 	 no AP.
+Increasing amplitude: 	-23.6555 uA: 	 no AP.
+Increasing amplitude: 	-33.4540 uA: 	 no AP.
+Increasing amplitude: 	-47.3110 uA: 	 no AP.
+Increasing amplitude: 	-66.9079 uA: 	 no AP.
+Increasing amplitude: 	-94.6221 uA: 	 AP.
+Lower bound: -66.9079 uA.   Upper bound: -94.6221 uA.   Search amplitude: -79.5674 uA: no AP.
+Lower bound: -79.5674 uA.   Upper bound: -94.6221 uA.   Search amplitude: -86.7688 uA: AP.
+Lower bound: -79.5674 uA.   Upper bound: -86.7688 uA.   Search amplitude: -83.0901 uA: no AP.
+Lower bound: -83.0901 uA.   Upper bound: -86.7688 uA.   Search amplitude: -84.9096 uA: AP.
+Lower bound: -83.0901 uA.   Upper bound: -84.9096 uA.   Search amplitude: -83.9949 uA: AP.
+Lower bound: -83.0901 uA.   Upper bound: -83.9949 uA.   Search amplitude: -83.5413 uA: AP.
+Lower bound: -83.0901 uA.   Upper bound: -83.5413 uA.   Search amplitude: -83.3154 uA: no AP.
+Binary search ended. Threshold: -83.3154 uA.
+ 
+Run time for search: 0.09 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-67.6974 uA: 	 no AP.
+Increasing amplitude: 	-80.5063 uA: 	 no AP.
+Increasing amplitude: 	-95.7386 uA: 	 AP.
+Lower bound: -80.5063 uA.   Upper bound: -95.7386 uA.   Search amplitude: -87.7927 uA: AP.
+Lower bound: -80.5063 uA.   Upper bound: -87.7927 uA.   Search amplitude: -84.0706 uA: AP.
+Lower bound: -80.5063 uA.   Upper bound: -84.0706 uA.   Search amplitude: -82.2691 uA: no AP.
+Lower bound: -82.2691 uA.   Upper bound: -84.0706 uA.   Search amplitude: -83.1650 uA: no AP.
+Lower bound: -83.1650 uA.   Upper bound: -84.0706 uA.   Search amplitude: -83.6166 uA: AP.
+Lower bound: -83.1650 uA.   Upper bound: -83.6166 uA.   Search amplitude: -83.3905 uA: no AP.
+Binary search ended. Threshold: -83.3905 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.198 min.
+Results saved in PE_A_RMG/Results/result_121.mat.

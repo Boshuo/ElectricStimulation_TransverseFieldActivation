@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	4
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.1000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-64.6230 uA: 	 no AP.
+Increasing amplitude: 	-91.3907 uA: 	 no AP.
+Increasing amplitude: 	-0.1292 mA: 	 AP.
+Lower bound: -91.3907 uA.   Upper bound: -0.1292 mA.   Search amplitude: -0.1087 mA: no AP.
+Lower bound: -0.1087 mA.   Upper bound: -0.1292 mA.   Search amplitude: -0.1185 mA: AP.
+Lower bound: -0.1087 mA.   Upper bound: -0.1185 mA.   Search amplitude: -0.1135 mA: no AP.
+Lower bound: -0.1135 mA.   Upper bound: -0.1185 mA.   Search amplitude: -0.1160 mA: AP.
+Lower bound: -0.1135 mA.   Upper bound: -0.1160 mA.   Search amplitude: -0.1147 mA: no AP.
+Lower bound: -0.1147 mA.   Upper bound: -0.1160 mA.   Search amplitude: -0.1154 mA: no AP.
+Lower bound: -0.1154 mA.   Upper bound: -0.1160 mA.   Search amplitude: -0.1157 mA: no AP.
+Binary search ended. Threshold: -0.1157 mA.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-92.7104 uA: 	 no AP.
+Increasing amplitude: 	-0.1103 mA: 	 no AP.
+Increasing amplitude: 	-0.1311 mA: 	 AP.
+Lower bound: -0.1103 mA.   Upper bound: -0.1311 mA.   Search amplitude: -0.1202 mA: AP.
+Lower bound: -0.1103 mA.   Upper bound: -0.1202 mA.   Search amplitude: -0.1151 mA: no AP.
+Lower bound: -0.1151 mA.   Upper bound: -0.1202 mA.   Search amplitude: -0.1177 mA: AP.
+Lower bound: -0.1151 mA.   Upper bound: -0.1177 mA.   Search amplitude: -0.1164 mA: AP.
+Lower bound: -0.1151 mA.   Upper bound: -0.1164 mA.   Search amplitude: -0.1158 mA: AP.
+Lower bound: -0.1151 mA.   Upper bound: -0.1158 mA.   Search amplitude: -0.1154 mA: no AP.
+Binary search ended. Threshold: -0.1154 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.308 min.
+Results saved in PE_A_RMG/Results/result_4.mat.

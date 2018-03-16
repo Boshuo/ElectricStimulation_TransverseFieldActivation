@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	172
+Pulse duration in ms:	0.0310
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-2.1110 uA: 	 no AP.
+Increasing amplitude: 	-2.9855 uA: 	 no AP.
+Increasing amplitude: 	-4.2221 uA: 	 AP.
+Lower bound: -2.9855 uA.   Upper bound: -4.2221 uA.   Search amplitude: -3.5503 uA: AP.
+Lower bound: -2.9855 uA.   Upper bound: -3.5503 uA.   Search amplitude: -3.2557 uA: no AP.
+Lower bound: -3.2557 uA.   Upper bound: -3.5503 uA.   Search amplitude: -3.3998 uA: AP.
+Lower bound: -3.2557 uA.   Upper bound: -3.3998 uA.   Search amplitude: -3.3270 uA: no AP.
+Lower bound: -3.3270 uA.   Upper bound: -3.3998 uA.   Search amplitude: -3.3632 uA: no AP.
+Lower bound: -3.3632 uA.   Upper bound: -3.3998 uA.   Search amplitude: -3.3814 uA: no AP.
+Lower bound: -3.3814 uA.   Upper bound: -3.3998 uA.   Search amplitude: -3.3906 uA: AP.
+Binary search ended. Threshold: -3.3906 uA.
+ 
+Run time for search: 0.35 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-2.7747 uA: 	 no AP.
+Increasing amplitude: 	-3.2997 uA: 	 no AP.
+Increasing amplitude: 	-3.9240 uA: 	 AP.
+Lower bound: -3.2997 uA.   Upper bound: -3.9240 uA.   Search amplitude: -3.5983 uA: AP.
+Lower bound: -3.2997 uA.   Upper bound: -3.5983 uA.   Search amplitude: -3.4457 uA: AP.
+Lower bound: -3.2997 uA.   Upper bound: -3.4457 uA.   Search amplitude: -3.3719 uA: AP.
+Lower bound: -3.2997 uA.   Upper bound: -3.3719 uA.   Search amplitude: -3.3356 uA: AP.
+Lower bound: -3.2997 uA.   Upper bound: -3.3356 uA.   Search amplitude: -3.3176 uA: no AP.
+Lower bound: -3.3176 uA.   Upper bound: -3.3356 uA.   Search amplitude: -3.3266 uA: no AP.
+Binary search ended. Threshold: -3.3266 uA.
+Percentage difference: -1.623 %.
+ 
+Run time for search: 0.16 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.520 min.
+Results saved in PE_A_RMG/Results/result_172.mat.

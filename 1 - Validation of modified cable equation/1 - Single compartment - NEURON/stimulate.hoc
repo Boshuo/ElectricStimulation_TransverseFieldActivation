@@ -1,0 +1,47 @@
+objref log_file
+objref v_plot
+objref stim_vec, v_vec, v_vec_pos_TP, v_vec_neg_TP
+
+// takes stimulation amplitude as input, returns whether center compartment fire AP
+func stimulate() { local ii, jj, flag_AP	// $1 amplitude of stimulus
+	stim_vec = stim_vec_temp.c()
+	stim_vec.mul($1)
+	v_vec = new Vector(time_vec.size(),v_init)
+	v_vec_pos_TP = new Vector(time_vec.size(),v_init)
+	v_vec_neg_TP = new Vector(time_vec.size(),v_init)	
+	flag_AP = 0 
+	stdinit()
+	finitialize(v_init)
+	v_vec.x[0] = v_init
+	v_vec_pos_TP.x[0] = v_init
+	v_vec_neg_TP.x[0] = v_init
+	
+	for ii = 1, time_vec.size()-1 {
+		if (dt != time_vec.x[ii] - time_vec.x[ii-1]) {
+			dt = time_vec.x[ii] - time_vec.x[ii-1]
+		}
+		//if (time_vec.x[ii]<=PW) {print time_vec.x[ii], dt, stim_vec.x[ii]}
+		//print time_vec.x[ii], dt
+		for jj = 0, n_TP-1 {
+			TPcompart[jj] { e_extracellular = ( extra_e_center - nRcos_vec.x[jj] * stim_vec.x[ii] ) } //mV
+		} 
+		fadvance()
+		v_vec.x[ii] = center.v(0.5)
+		v_vec_pos_TP.x[ii] = TPcompart[0].v(0.5)
+		v_vec_neg_TP.x[ii] = TPcompart[n_TP-1].v(0.5)
+		
+		if (center.v(0.5) > 0) {
+			flag_AP = 1
+		}
+	}
+	if (flag_AP) {
+		v_vec.line(v_plot,time_vec,1,5) 
+		v_vec_pos_TP.line(v_plot,time_vec,2,5) 
+		v_vec_neg_TP.line(v_plot,time_vec,3,5)
+	} else {
+		v_vec.line(v_plot,time_vec,1,1) 
+		v_vec_pos_TP.line(v_plot,time_vec,2,1) 
+		v_vec_neg_TP.line(v_plot,time_vec,3,1)
+	}
+	return  flag_AP
+}

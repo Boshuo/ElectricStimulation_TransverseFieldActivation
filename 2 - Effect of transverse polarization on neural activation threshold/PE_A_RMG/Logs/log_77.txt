@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	77
+Pulse duration in ms:	0.0045
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-13.2916 uA: 	 AP.
+Decreasing amplitude: 	-9.3986 uA: 	 no AP.
+Lower bound: -9.3986 uA.   Upper bound: -13.2916 uA.   Search amplitude: -11.1768 uA: AP.
+Lower bound: -9.3986 uA.   Upper bound: -11.1768 uA.   Search amplitude: -10.2492 uA: AP.
+Lower bound: -9.3986 uA.   Upper bound: -10.2492 uA.   Search amplitude: -9.8147 uA: no AP.
+Lower bound: -9.8147 uA.   Upper bound: -10.2492 uA.   Search amplitude: -10.0296 uA: no AP.
+Lower bound: -10.0296 uA.   Upper bound: -10.2492 uA.   Search amplitude: -10.1388 uA: no AP.
+Lower bound: -10.1388 uA.   Upper bound: -10.2492 uA.   Search amplitude: -10.1939 uA: no AP.
+Lower bound: -10.1939 uA.   Upper bound: -10.2492 uA.   Search amplitude: -10.2215 uA: no AP.
+Binary search ended. Threshold: -10.2215 uA.
+ 
+Run time for search: 0.44 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-8.3873 uA: 	 no AP.
+Increasing amplitude: 	-9.9743 uA: 	 no AP.
+Increasing amplitude: 	-11.8615 uA: 	 AP.
+Lower bound: -9.9743 uA.   Upper bound: -11.8615 uA.   Search amplitude: -10.8770 uA: AP.
+Lower bound: -9.9743 uA.   Upper bound: -10.8770 uA.   Search amplitude: -10.4159 uA: AP.
+Lower bound: -9.9743 uA.   Upper bound: -10.4159 uA.   Search amplitude: -10.1927 uA: AP.
+Lower bound: -9.9743 uA.   Upper bound: -10.1927 uA.   Search amplitude: -10.0829 uA: AP.
+Lower bound: -9.9743 uA.   Upper bound: -10.0829 uA.   Search amplitude: -10.0284 uA: AP.
+Lower bound: -9.9743 uA.   Upper bound: -10.0284 uA.   Search amplitude: -10.0013 uA: no AP.
+Binary search ended. Threshold: -10.0013 uA.
+Percentage difference: -2.154 %.
+ 
+Run time for search: 0.20 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.639 min.
+Results saved in PE_A_RMG/Results/result_77.mat.

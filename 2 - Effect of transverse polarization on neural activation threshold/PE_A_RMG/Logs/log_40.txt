@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	40
+Pulse duration in ms:	0.0021
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-28.4210 uA: 	 AP.
+Decreasing amplitude: 	-20.0967 uA: 	 no AP.
+Lower bound: -20.0967 uA.   Upper bound: -28.4210 uA.   Search amplitude: -23.8991 uA: no AP.
+Lower bound: -23.8991 uA.   Upper bound: -28.4210 uA.   Search amplitude: -26.0621 uA: AP.
+Lower bound: -23.8991 uA.   Upper bound: -26.0621 uA.   Search amplitude: -24.9572 uA: no AP.
+Lower bound: -24.9572 uA.   Upper bound: -26.0621 uA.   Search amplitude: -25.5037 uA: no AP.
+Lower bound: -25.5037 uA.   Upper bound: -26.0621 uA.   Search amplitude: -25.7814 uA: no AP.
+Lower bound: -25.7814 uA.   Upper bound: -26.0621 uA.   Search amplitude: -25.9214 uA: AP.
+Lower bound: -25.7814 uA.   Upper bound: -25.9214 uA.   Search amplitude: -25.8513 uA: AP.
+Binary search ended. Threshold: -25.8513 uA.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-20.3430 uA: 	 no AP.
+Increasing amplitude: 	-24.1920 uA: 	 no AP.
+Increasing amplitude: 	-28.7693 uA: 	 AP.
+Lower bound: -24.1920 uA.   Upper bound: -28.7693 uA.   Search amplitude: -26.3816 uA: AP.
+Lower bound: -24.1920 uA.   Upper bound: -26.3816 uA.   Search amplitude: -25.2631 uA: no AP.
+Lower bound: -25.2631 uA.   Upper bound: -26.3816 uA.   Search amplitude: -25.8163 uA: AP.
+Lower bound: -25.2631 uA.   Upper bound: -25.8163 uA.   Search amplitude: -25.5382 uA: no AP.
+Lower bound: -25.5382 uA.   Upper bound: -25.8163 uA.   Search amplitude: -25.6769 uA: AP.
+Lower bound: -25.5382 uA.   Upper bound: -25.6769 uA.   Search amplitude: -25.6074 uA: no AP.
+Binary search ended. Threshold: -25.6074 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.22 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.356 min.
+Results saved in PE_A_RMG/Results/result_40.mat.

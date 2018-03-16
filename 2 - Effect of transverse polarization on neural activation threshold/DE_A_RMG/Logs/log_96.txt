@@ -1,0 +1,40 @@
+Model type: 	Disk electrode
+Parameter ID:	96
+Pulse duration in ms:	0.0068
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-8.3752 uA: 	 no AP.
+Increasing amplitude: 	-11.8444 uA: 	 AP.
+Lower bound: -8.3752 uA.   Upper bound: -11.8444 uA.   Search amplitude: -9.9599 uA: no AP.
+Lower bound: -9.9599 uA.   Upper bound: -11.8444 uA.   Search amplitude: -10.8613 uA: AP.
+Lower bound: -9.9599 uA.   Upper bound: -10.8613 uA.   Search amplitude: -10.4009 uA: no AP.
+Lower bound: -10.4009 uA.   Upper bound: -10.8613 uA.   Search amplitude: -10.6286 uA: no AP.
+Lower bound: -10.6286 uA.   Upper bound: -10.8613 uA.   Search amplitude: -10.7443 uA: no AP.
+Lower bound: -10.7443 uA.   Upper bound: -10.8613 uA.   Search amplitude: -10.8027 uA: AP.
+Lower bound: -10.7443 uA.   Upper bound: -10.8027 uA.   Search amplitude: -10.7735 uA: no AP.
+Binary search ended. Threshold: -10.7735 uA.
+ 
+Run time for search: 0.14 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-8.7353 uA: 	 no AP.
+Increasing amplitude: 	-10.3881 uA: 	 no AP.
+Increasing amplitude: 	-12.3536 uA: 	 AP.
+Lower bound: -10.3881 uA.   Upper bound: -12.3536 uA.   Search amplitude: -11.3283 uA: AP.
+Lower bound: -10.3881 uA.   Upper bound: -11.3283 uA.   Search amplitude: -10.8480 uA: AP.
+Lower bound: -10.3881 uA.   Upper bound: -10.8480 uA.   Search amplitude: -10.6155 uA: no AP.
+Lower bound: -10.6155 uA.   Upper bound: -10.8480 uA.   Search amplitude: -10.7311 uA: no AP.
+Lower bound: -10.7311 uA.   Upper bound: -10.8480 uA.   Search amplitude: -10.7894 uA: AP.
+Lower bound: -10.7311 uA.   Upper bound: -10.7894 uA.   Search amplitude: -10.7602 uA: no AP.
+Binary search ended. Threshold: -10.7602 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.24 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.380 min.
+Results saved in DE_A_RMG/Results/result_96.mat.

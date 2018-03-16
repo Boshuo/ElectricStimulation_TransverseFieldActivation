@@ -1,0 +1,28 @@
+Model type: 	Soma
+Parameter ID:	120
+Pulse duration in ms:	1.4000
+Radius	16.0 um.
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	0.1670 kV/m: 	 no AP.
+Increasing amplitude: 	0.2362 kV/m: 	 no AP.
+Increasing amplitude: 	0.3341 kV/m: 	 no AP.
+Increasing amplitude: 	0.4724 kV/m: 	 no AP.
+Increasing amplitude: 	0.6681 kV/m: 	 AP.
+Lower bound: 0.4724 kV/m.   Upper bound: 0.6681 kV/m.   Search amplitude: 0.5618 kV/m: no AP.
+Lower bound: 0.5618 kV/m.   Upper bound: 0.6681 kV/m.   Search amplitude: 0.6127 kV/m: no AP.
+Lower bound: 0.6127 kV/m.   Upper bound: 0.6681 kV/m.   Search amplitude: 0.6398 kV/m: AP.
+Lower bound: 0.6127 kV/m.   Upper bound: 0.6398 kV/m.   Search amplitude: 0.6261 kV/m: no AP.
+Lower bound: 0.6261 kV/m.   Upper bound: 0.6398 kV/m.   Search amplitude: 0.6329 kV/m: no AP.
+Lower bound: 0.6329 kV/m.   Upper bound: 0.6398 kV/m.   Search amplitude: 0.6363 kV/m: no AP.
+Lower bound: 0.6363 kV/m.   Upper bound: 0.6398 kV/m.   Search amplitude: 0.6381 kV/m: AP.
+Lower bound: 0.6363 kV/m.   Upper bound: 0.6381 kV/m.   Search amplitude: 0.6372 kV/m: no AP.
+Lower bound: 0.6372 kV/m.   Upper bound: 0.6381 kV/m.   Search amplitude: 0.6376 kV/m: AP.
+Binary search ended. Threshold: 0.6376 kV/m.
+ 
+Run time for search: 0.17 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.171 min.
+Results saved in UF_Soma_HH/Results/result_120.mat.

@@ -1,0 +1,31 @@
+objref time_vec, stim_vec_temp
+
+proc set_stim_vector() { local ii,jj	//$1 PW, $2 dt_set
+	n_time_before = 5   // times steps before pulse onset (t = 0)
+	n_time = tstop / $2   // time steps from pulse onset to stop time
+	n_time  = n_time - n_time % 1  + n_time_before + 1  // time steps rounded, and with steps before pulse onset
+	PW_residual = $1 % $2   
+	if (PW_residual != 0) { n_time = n_time + 1 } // If pulse duration is not multiple of time step, then include the pulse duration in the vector
+	time_vec = new Vector(n_time)
+	stim_vec_temp = new Vector(time_vec.size(),0)
+	
+	for (ii = n_time_before-1;ii >=0 ;ii = ii-1)  { // negative time
+		time_vec.x[ii] = time_vec.x[ ii+1 ] - $2 
+	}
+	for (ii = n_time_before +1 ;time_vec.x[ii-1] + $2  < $1 ;ii = ii+1)  {
+		time_vec.x[ ii ] = time_vec.x[ ii-1 ] + $2 
+		stim_vec_temp.x[ ii ] = 1		// Stimulation on
+	}
+	time_vec.x[ ii ] = $1 				// Pulse duration
+	stim_vec_temp.x[ ii ] = 1 
+	
+	if (PW_residual != 0) {				// Next times step should be on a multiple
+		ii = ii+1
+		time_vec.x[ii] = time_vec.x[ii-1] + ( $2  - PW_residual)
+	}
+	
+	for jj = ii+1 ,time_vec.size()-1 {	// Remaining times
+		time_vec.x[jj] = time_vec.x[jj-1] + $2 
+	}
+
+}

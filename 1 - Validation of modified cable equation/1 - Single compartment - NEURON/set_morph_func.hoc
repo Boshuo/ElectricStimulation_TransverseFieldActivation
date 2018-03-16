@@ -1,0 +1,54 @@
+proc set_morph() {local ii
+	//$1 radius, $2: length
+
+	// Order for creating compartments
+	// BASIC TOPOLOGY
+	// SUBSETS
+	// GEOMETRY
+	// BIOPHYSICS
+	
+	total_area = 2 * PI * $1 * $2		// Surface area of the single compartment cell
+	
+	if (is_axon == 1) {
+		TP_area = total_area / n_theta  // Area of each compartment in the spoke-hub structure is the same
+		TP_radius = sqrt(TP_area / (4*PI))
+		
+		center {
+			pt3dclear()
+			pt3dadd( 0, 0, -TP_radius, TP_radius * 2)
+			pt3dadd( 0, 0,  TP_radius, TP_radius * 2)
+			Ra = Ra_center * $2/2 * TP_radius / ($1^2) 
+		}
+		for ii = 0, (n_TP-1) {
+			nRcos_vec.x[ii] = ( 1 + 1/n_dim ) * $1 * cos_vec.x[ii]  // um
+			TPcompart[ii] {
+				pt3dclear() 
+				pt3dadd(0, 0, 0, TP_radius*2)
+				pt3dadd(TP_radius * 2 * cos_vec.x[ii], TP_radius * 2 * sin_vec.x[ii], 0, TP_radius * 2)
+			}
+		}
+	} else {							// For soma
+		TP_area = total_area * 1 * PI / ( 2 * n_theta )  // The 1 here is for sin(pi/2)
+		TP_radius = sqrt(TP_area / (4*PI))
+		center {
+			pt3dclear()
+			pt3dadd( 0, 0, -TP_radius, TP_radius * 2)
+			pt3dadd( 0, 0,  TP_radius, TP_radius * 2)
+			Ra = Ra_TP 
+		}
+		
+		for ii = 0, (n_TP-1) {
+			nRcos_vec.x[ii] = ( 1 + 1/n_dim ) * $1 * cos_vec.x[ii]
+			TP_area = total_area * sin_vec.x[ii] * PI / ( 2 * n_theta ) 
+			TP_radius = sqrt(TP_area / (4*PI))
+			TPcompart[ii] { 
+				pt3dclear() 
+				pt3dadd(0, 0, 0, TP_radius*2)
+				pt3dadd(TP_radius * 2 * cos_vec.x[ii], TP_radius * 2 * sin_vec.x[ii], 0, TP_radius * 2)
+			}
+		}
+	}
+	
+	print "Morphology set with new radius of ", $1, "um. "
+	
+}

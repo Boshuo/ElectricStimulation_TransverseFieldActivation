@@ -1,0 +1,92 @@
+n_theta = 15		// discretization number for transverse polarization
+
+dt_default = 0.002	// ms
+t_after_pulse = 10  // time after pulse ends, ms
+
+steps_per_ms = 1 	// 
+
+celsius = 23.5		// degree Celcius
+v_init = -65		// initial voltage, mV
+// secondorder = 1
+
+PW_start = 0.001	// ms
+decades = 4 		// decades for PW
+
+sample_num_decade = 6		// number of points per decade
+double sample_decade[sample_num_decade] 
+sample_decade[0] = 1
+sample_decade[1] = 1.4
+sample_decade[2] = 2.1 
+sample_decade[3] = 3.1
+sample_decade[4] = 4.5
+sample_decade[5] = 6.8
+
+strdef compart_str, file_name
+if (is_axon == 1 ) {
+	n_dim = 1 				// Dimension parameter, 1 for axon
+	length_axon = 10		// Length of axon compartment, 10 um
+	sprint(compart_str,"axon")
+} else  {
+	n_dim = 2 				// Dimension parameter, 2 for soma
+	sprint(compart_str,"soma")
+}
+
+
+
+sprint(file_name,"%s/%s_summary.txt",folder_str,compart_str)
+objref summary_file   				//declare object references for summary file
+summary_file = new File()
+summary_file.wopen(file_name)   	//open file for writing
+summary_file.printf("Setting initial parameters...     \n")
+summary_file.printf ("Creating multi-compartment structure equivelant for %s in transverse field....\n", compart_str)
+
+
+if ((n_theta % 2) == 0) { n_theta = n_theta + 1}		// Make n_theta odd, in case set to even number
+delta_theta = PI/n_theta								// Interval of theta
+n_TP = n_theta - 1										// Number of additional TP compartments, excluding center (original compartment)
+n_TP_half = n_TP/2									    // Half of additional TP compartments
+
+objref theta_vec, nRcos_vec, cos_vec, sin_vec			// vectors corresponding to the spoke compartments, first for b = M, M-1,...,2,1, -1, -2, ..., -M+1, -M (0 corresponds to hub and is skipped)
+theta_vec = new Vector(n_TP , delta_theta/2)			// vector of azimuthal/polar angle theta, first one is PI/n_theta/2
+nRcos_vec = new Vector(n_TP)
+cos_vec = new Vector(n_TP)
+sin_vec = new Vector(n_TP)
+
+for ii= 1, n_TP-1 {
+	theta_vec.x[ii] = theta_vec.x[ii-1] + delta_theta	// increment the angle by delta_theta
+	if (ii == (n_TP_half)) { theta_vec.x[ii] = theta_vec.x[ii] + delta_theta }	// skiTPing hub compartment which as theta = pi/2
+}
+for ii= 0, n_TP_half-1 {								// vectors of cosines and sines
+	cos_vec.x[ii] = cos(theta_vec.x[ii])
+	sin_vec.x[ii] = sin(theta_vec.x[ii])
+	
+	cos_vec.x[n_TP-1 - ii] = -cos_vec.x[ii]
+	sin_vec.x[n_TP-1 - ii] =  sin_vec.x[ii]
+}
+
+// for quick testing of theta
+proc  print_theta() { for ii = 0,n_TP-1 print theta_vec.x[ii]*180/PI  
+}
+
+
+objref PW_vec		// list of PW in ms
+PW_vec = new Vector(sample_num_decade*decades +1)
+
+for ii = 0, decades-1 {
+	for jj = 0, sample_num_decade-1 {
+		PW_vec.x[ii * sample_num_decade + jj] = PW_start*10^ii * sample_decade[jj]
+	}	
+}
+PW_vec.x[PW_vec.size()-1] = PW_start*10^(decades)  // last pulse duration
+
+
+{
+th_acc = 0.1e-2					// 0.1%, accuracy of threshold finding
+factor = sqrt(sqrt(2))			// factor for increasing/decreasing field amplitude during threshold search
+n_binary_step = log(3000)/log(factor)	// maximum number of steps during the search
+n_binary_step = n_binary_step - n_binary_step % 1 + 1  // Rounding up to the next integer
+}
+
+summary_file.printf("Initial parameters set... \n\n")
+print "Initial parameters set..."
+print " "

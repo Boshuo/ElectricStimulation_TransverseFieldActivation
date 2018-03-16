@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	116
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-6.0412 uA: 	 no AP.
+Increasing amplitude: 	-8.5435 uA: 	 no AP.
+Increasing amplitude: 	-12.0824 uA: 	 AP.
+Lower bound: -8.5435 uA.   Upper bound: -12.0824 uA.   Search amplitude: -10.1600 uA: AP.
+Lower bound: -8.5435 uA.   Upper bound: -10.1600 uA.   Search amplitude: -9.3168 uA: no AP.
+Lower bound: -9.3168 uA.   Upper bound: -10.1600 uA.   Search amplitude: -9.7293 uA: AP.
+Lower bound: -9.3168 uA.   Upper bound: -9.7293 uA.   Search amplitude: -9.5208 uA: no AP.
+Lower bound: -9.5208 uA.   Upper bound: -9.7293 uA.   Search amplitude: -9.6245 uA: AP.
+Lower bound: -9.5208 uA.   Upper bound: -9.6245 uA.   Search amplitude: -9.5725 uA: AP.
+Lower bound: -9.5208 uA.   Upper bound: -9.5725 uA.   Search amplitude: -9.5466 uA: AP.
+Binary search ended. Threshold: -9.5466 uA.
+ 
+Run time for search: 0.09 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-7.6700 uA: 	 no AP.
+Increasing amplitude: 	-9.1212 uA: 	 no AP.
+Increasing amplitude: 	-10.8470 uA: 	 AP.
+Lower bound: -9.1212 uA.   Upper bound: -10.8470 uA.   Search amplitude: -9.9468 uA: AP.
+Lower bound: -9.1212 uA.   Upper bound: -9.9468 uA.   Search amplitude: -9.5251 uA: no AP.
+Lower bound: -9.5251 uA.   Upper bound: -9.9468 uA.   Search amplitude: -9.7336 uA: AP.
+Lower bound: -9.5251 uA.   Upper bound: -9.7336 uA.   Search amplitude: -9.6288 uA: AP.
+Lower bound: -9.5251 uA.   Upper bound: -9.6288 uA.   Search amplitude: -9.5768 uA: AP.
+Lower bound: -9.5251 uA.   Upper bound: -9.5768 uA.   Search amplitude: -9.5509 uA: AP.
+Binary search ended. Threshold: -9.5509 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.09 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.181 min.
+Results saved in DE_A_RMG/Results/result_116.mat.

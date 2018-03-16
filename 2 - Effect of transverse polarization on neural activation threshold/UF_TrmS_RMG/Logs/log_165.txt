@@ -1,0 +1,88 @@
+Model type: 	Axon terminal with synapse
+Parameter ID:	165
+Pulse duration in ms:	0.0100
+Field orientation in degrees:	88.0
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	0.3156 kV/m: 	 no AP.
+Increasing amplitude: 	0.3442 kV/m: 	 no AP.
+Increasing amplitude: 	0.3754 kV/m: 	 no AP.
+Increasing amplitude: 	0.4093 kV/m: 	 no AP.
+Increasing amplitude: 	0.4464 kV/m: 	 no AP.
+Increasing amplitude: 	0.4868 kV/m: 	 no AP.
+Increasing amplitude: 	0.5308 kV/m: 	 no AP.
+Increasing amplitude: 	0.5789 kV/m: 	 no AP.
+Increasing amplitude: 	0.6313 kV/m: 	 no AP.
+Increasing amplitude: 	0.6884 kV/m: 	 no AP.
+Increasing amplitude: 	0.7507 kV/m: 	 no AP.
+Increasing amplitude: 	0.8187 kV/m: 	 no AP.
+Increasing amplitude: 	0.8927 kV/m: 	 no AP.
+Increasing amplitude: 	0.9735 kV/m: 	 no AP.
+Increasing amplitude: 	1.0617 kV/m: 	 no AP.
+Increasing amplitude: 	1.1578 kV/m: 	 no AP.
+Increasing amplitude: 	1.2625 kV/m: 	 no AP.
+Increasing amplitude: 	1.3768 kV/m: 	 no AP.
+Increasing amplitude: 	1.5014 kV/m: 	 no AP.
+Increasing amplitude: 	1.6373 kV/m: 	 no AP.
+Increasing amplitude: 	1.7855 kV/m: 	 no AP.
+Increasing amplitude: 	1.9471 kV/m: 	 no AP.
+Increasing amplitude: 	2.1233 kV/m: 	 no AP.
+Increasing amplitude: 	2.3155 kV/m: 	 no AP.
+Increasing amplitude: 	2.5251 kV/m: 	 no AP.
+Increasing amplitude: 	2.7536 kV/m: 	 no AP.
+Increasing amplitude: 	3.0028 kV/m: 	 no AP.
+Increasing amplitude: 	3.2746 kV/m: 	 no AP.
+Increasing amplitude: 	3.5710 kV/m: 	 no AP.
+Increasing amplitude: 	3.8942 kV/m: 	 no AP.
+Increasing amplitude: 	4.2467 kV/m: 	 no AP.
+Increasing amplitude: 	4.6310 kV/m: 	 no AP.
+Increasing amplitude: 	5.0501 kV/m: 	 no AP.
+Increasing amplitude: 	5.5072 kV/m: 	 no AP.
+Increasing amplitude: 	6.0057 kV/m: 	 no AP.
+Increasing amplitude: 	6.5492 kV/m: 	 no AP.
+Increasing amplitude: 	7.1420 kV/m: 	 no AP.
+Increasing amplitude: 	7.7884 kV/m: 	 no AP.
+Increasing amplitude: 	8.4933 kV/m: 	 no AP.
+Increasing amplitude: 	9.2620 kV/m: 	 no AP.
+Increasing amplitude: 	10.1003 kV/m: 	 no AP.
+Increasing amplitude: 	11.0145 kV/m: 	 no AP.
+Increasing amplitude: 	12.0113 kV/m: 	 no AP.
+Increasing amplitude: 	13.0985 kV/m: 	 AP.
+Lower bound: 12.0113 kV/m.   Upper bound: 13.0985 kV/m.   Search amplitude: 12.5431 kV/m: no AP.
+Lower bound: 12.5431 kV/m.   Upper bound: 13.0985 kV/m.   Search amplitude: 12.8178 kV/m: no AP.
+Lower bound: 12.8178 kV/m.   Upper bound: 13.0985 kV/m.   Search amplitude: 12.9574 kV/m: no AP.
+Lower bound: 12.9574 kV/m.   Upper bound: 13.0985 kV/m.   Search amplitude: 13.0277 kV/m: AP.
+Lower bound: 12.9574 kV/m.   Upper bound: 13.0277 kV/m.   Search amplitude: 12.9925 kV/m: AP.
+Binary search ended. Threshold: 12.9925 kV/m.
+ 
+Run time for search: 0.63 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	10.2241 kV/m: 	 AP.
+Decreasing amplitude: 	9.7906 kV/m: 	 AP.
+Decreasing amplitude: 	9.3755 kV/m: 	 AP.
+Decreasing amplitude: 	8.9780 kV/m: 	 AP.
+Decreasing amplitude: 	8.5974 kV/m: 	 AP.
+Decreasing amplitude: 	8.2329 kV/m: 	 AP.
+Decreasing amplitude: 	7.8839 kV/m: 	 AP.
+Decreasing amplitude: 	7.5496 kV/m: 	 AP.
+Decreasing amplitude: 	7.2295 kV/m: 	 AP.
+Decreasing amplitude: 	6.9230 kV/m: 	 AP.
+Decreasing amplitude: 	6.6295 kV/m: 	 AP.
+Decreasing amplitude: 	6.3484 kV/m: 	 AP.
+Decreasing amplitude: 	6.0793 kV/m: 	 no AP.
+Lower bound: 6.0793 kV/m.   Upper bound: 6.3484 kV/m.   Search amplitude: 6.2124 kV/m: no AP.
+Lower bound: 6.2124 kV/m.   Upper bound: 6.3484 kV/m.   Search amplitude: 6.2801 kV/m: no AP.
+Lower bound: 6.2801 kV/m.   Upper bound: 6.3484 kV/m.   Search amplitude: 6.3142 kV/m: no AP.
+Lower bound: 6.3142 kV/m.   Upper bound: 6.3484 kV/m.   Search amplitude: 6.3313 kV/m: AP.
+Binary search ended. Threshold: 6.3313 kV/m.
+Percentage difference: -51.270 %.
+ 
+Run time for search: 0.32 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.955 min.
+Results saved in UF_TrmS_RMG/Results/result_165.mat.

@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	21
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	0.0450
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-42.5284 uA: 	 AP.
+Decreasing amplitude: 	-30.0721 uA: 	 no AP.
+Lower bound: -30.0721 uA.   Upper bound: -42.5284 uA.   Search amplitude: -35.7619 uA: AP.
+Lower bound: -30.0721 uA.   Upper bound: -35.7619 uA.   Search amplitude: -32.7938 uA: no AP.
+Lower bound: -32.7938 uA.   Upper bound: -35.7619 uA.   Search amplitude: -34.2458 uA: no AP.
+Lower bound: -34.2458 uA.   Upper bound: -35.7619 uA.   Search amplitude: -34.9956 uA: AP.
+Lower bound: -34.2458 uA.   Upper bound: -34.9956 uA.   Search amplitude: -34.6187 uA: no AP.
+Lower bound: -34.6187 uA.   Upper bound: -34.9956 uA.   Search amplitude: -34.8066 uA: no AP.
+Lower bound: -34.8066 uA.   Upper bound: -34.9956 uA.   Search amplitude: -34.9010 uA: AP.
+Binary search ended. Threshold: -34.9010 uA.
+ 
+Run time for search: 0.10 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-27.4644 uA: 	 no AP.
+Increasing amplitude: 	-32.6609 uA: 	 no AP.
+Increasing amplitude: 	-38.8405 uA: 	 AP.
+Lower bound: -32.6609 uA.   Upper bound: -38.8405 uA.   Search amplitude: -35.6169 uA: AP.
+Lower bound: -32.6609 uA.   Upper bound: -35.6169 uA.   Search amplitude: -34.1069 uA: no AP.
+Lower bound: -34.1069 uA.   Upper bound: -35.6169 uA.   Search amplitude: -34.8537 uA: AP.
+Lower bound: -34.1069 uA.   Upper bound: -34.8537 uA.   Search amplitude: -34.4783 uA: no AP.
+Lower bound: -34.4783 uA.   Upper bound: -34.8537 uA.   Search amplitude: -34.6655 uA: no AP.
+Lower bound: -34.6655 uA.   Upper bound: -34.8537 uA.   Search amplitude: -34.7595 uA: AP.
+Binary search ended. Threshold: -34.7595 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.15 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.253 min.
+Results saved in PE_A_RMG/Results/result_21.mat.

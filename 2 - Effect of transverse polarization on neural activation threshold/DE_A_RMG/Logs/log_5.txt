@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	5
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.1400
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-71.2097 uA: 	 no AP.
+Increasing amplitude: 	-0.1007 mA: 	 no AP.
+Increasing amplitude: 	-0.1424 mA: 	 AP.
+Lower bound: -0.1007 mA.   Upper bound: -0.1424 mA.   Search amplitude: -0.1198 mA: AP.
+Lower bound: -0.1007 mA.   Upper bound: -0.1198 mA.   Search amplitude: -0.1098 mA: AP.
+Lower bound: -0.1007 mA.   Upper bound: -0.1098 mA.   Search amplitude: -0.1052 mA: AP.
+Lower bound: -0.1007 mA.   Upper bound: -0.1052 mA.   Search amplitude: -0.1029 mA: no AP.
+Lower bound: -0.1029 mA.   Upper bound: -0.1052 mA.   Search amplitude: -0.1040 mA: no AP.
+Lower bound: -0.1040 mA.   Upper bound: -0.1052 mA.   Search amplitude: -0.1046 mA: AP.
+Lower bound: -0.1040 mA.   Upper bound: -0.1046 mA.   Search amplitude: -0.1043 mA: AP.
+Binary search ended. Threshold: -0.1043 mA.
+ 
+Run time for search: 0.16 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-84.9292 uA: 	 no AP.
+Increasing amplitude: 	-0.1010 mA: 	 no AP.
+Increasing amplitude: 	-0.1201 mA: 	 AP.
+Lower bound: -0.1010 mA.   Upper bound: -0.1201 mA.   Search amplitude: -0.1101 mA: AP.
+Lower bound: -0.1010 mA.   Upper bound: -0.1101 mA.   Search amplitude: -0.1055 mA: AP.
+Lower bound: -0.1010 mA.   Upper bound: -0.1055 mA.   Search amplitude: -0.1032 mA: no AP.
+Lower bound: -0.1032 mA.   Upper bound: -0.1055 mA.   Search amplitude: -0.1043 mA: AP.
+Lower bound: -0.1032 mA.   Upper bound: -0.1043 mA.   Search amplitude: -0.1038 mA: no AP.
+Lower bound: -0.1038 mA.   Upper bound: -0.1043 mA.   Search amplitude: -0.1041 mA: AP.
+Binary search ended. Threshold: -0.1041 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.352 min.
+Results saved in DE_A_RMG/Results/result_5.mat.

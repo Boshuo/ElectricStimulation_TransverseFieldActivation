@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	115
+Pulse duration in ms:	0.0100
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-5.7581 uA: 	 no AP.
+Increasing amplitude: 	-8.1431 uA: 	 no AP.
+Increasing amplitude: 	-11.5161 uA: 	 AP.
+Lower bound: -8.1431 uA.   Upper bound: -11.5161 uA.   Search amplitude: -9.6839 uA: AP.
+Lower bound: -8.1431 uA.   Upper bound: -9.6839 uA.   Search amplitude: -8.8801 uA: AP.
+Lower bound: -8.1431 uA.   Upper bound: -8.8801 uA.   Search amplitude: -8.5036 uA: no AP.
+Lower bound: -8.5036 uA.   Upper bound: -8.8801 uA.   Search amplitude: -8.6898 uA: AP.
+Lower bound: -8.5036 uA.   Upper bound: -8.6898 uA.   Search amplitude: -8.5962 uA: AP.
+Lower bound: -8.5036 uA.   Upper bound: -8.5962 uA.   Search amplitude: -8.5498 uA: no AP.
+Lower bound: -8.5498 uA.   Upper bound: -8.5962 uA.   Search amplitude: -8.5730 uA: AP.
+Binary search ended. Threshold: -8.5730 uA.
+ 
+Run time for search: 0.08 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-6.9323 uA: 	 no AP.
+Increasing amplitude: 	-8.2440 uA: 	 no AP.
+Increasing amplitude: 	-9.8038 uA: 	 AP.
+Lower bound: -8.2440 uA.   Upper bound: -9.8038 uA.   Search amplitude: -8.9901 uA: AP.
+Lower bound: -8.2440 uA.   Upper bound: -8.9901 uA.   Search amplitude: -8.6089 uA: AP.
+Lower bound: -8.2440 uA.   Upper bound: -8.6089 uA.   Search amplitude: -8.4245 uA: no AP.
+Lower bound: -8.4245 uA.   Upper bound: -8.6089 uA.   Search amplitude: -8.5162 uA: no AP.
+Lower bound: -8.5162 uA.   Upper bound: -8.6089 uA.   Search amplitude: -8.5625 uA: AP.
+Lower bound: -8.5162 uA.   Upper bound: -8.5625 uA.   Search amplitude: -8.5393 uA: no AP.
+Binary search ended. Threshold: -8.5393 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.12 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.205 min.
+Results saved in DE_A_RMG/Results/result_115.mat.

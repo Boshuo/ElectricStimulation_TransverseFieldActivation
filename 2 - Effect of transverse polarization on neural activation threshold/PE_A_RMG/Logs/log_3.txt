@@ -1,0 +1,40 @@
+Model type: 	Point electrode
+Parameter ID:	3
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.0680
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-64.9217 uA: 	 no AP.
+Increasing amplitude: 	-91.8131 uA: 	 AP.
+Lower bound: -64.9217 uA.   Upper bound: -91.8131 uA.   Search amplitude: -77.2053 uA: AP.
+Lower bound: -64.9217 uA.   Upper bound: -77.2053 uA.   Search amplitude: -70.7976 uA: no AP.
+Lower bound: -70.7976 uA.   Upper bound: -77.2053 uA.   Search amplitude: -73.9321 uA: no AP.
+Lower bound: -73.9321 uA.   Upper bound: -77.2053 uA.   Search amplitude: -75.5510 uA: AP.
+Lower bound: -73.9321 uA.   Upper bound: -75.5510 uA.   Search amplitude: -74.7372 uA: AP.
+Lower bound: -73.9321 uA.   Upper bound: -74.7372 uA.   Search amplitude: -74.3335 uA: AP.
+Lower bound: -73.9321 uA.   Upper bound: -74.3335 uA.   Search amplitude: -74.1325 uA: AP.
+Binary search ended. Threshold: -74.1325 uA.
+ 
+Run time for search: 0.13 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-61.3591 uA: 	 no AP.
+Increasing amplitude: 	-72.9687 uA: 	 no AP.
+Increasing amplitude: 	-86.7748 uA: 	 AP.
+Lower bound: -72.9687 uA.   Upper bound: -86.7748 uA.   Search amplitude: -79.5729 uA: AP.
+Lower bound: -72.9687 uA.   Upper bound: -79.5729 uA.   Search amplitude: -76.1993 uA: AP.
+Lower bound: -72.9687 uA.   Upper bound: -76.1993 uA.   Search amplitude: -74.5665 uA: AP.
+Lower bound: -72.9687 uA.   Upper bound: -74.5665 uA.   Search amplitude: -73.7632 uA: no AP.
+Lower bound: -73.7632 uA.   Upper bound: -74.5665 uA.   Search amplitude: -74.1638 uA: AP.
+Lower bound: -73.7632 uA.   Upper bound: -74.1638 uA.   Search amplitude: -73.9632 uA: AP.
+Binary search ended. Threshold: -73.9632 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.16 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.293 min.
+Results saved in PE_A_RMG/Results/result_3.mat.

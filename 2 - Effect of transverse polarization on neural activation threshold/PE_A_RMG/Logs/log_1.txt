@@ -1,0 +1,41 @@
+Model type: 	Point electrode
+Parameter ID:	1
+Pulse duration in ms:	0.0010
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-59.0932 uA: 	 AP.
+Decreasing amplitude: 	-41.7852 uA: 	 AP.
+Decreasing amplitude: 	-29.5466 uA: 	 no AP.
+Lower bound: -29.5466 uA.   Upper bound: -41.7852 uA.   Search amplitude: -35.1370 uA: AP.
+Lower bound: -29.5466 uA.   Upper bound: -35.1370 uA.   Search amplitude: -32.2208 uA: AP.
+Lower bound: -29.5466 uA.   Upper bound: -32.2208 uA.   Search amplitude: -30.8547 uA: no AP.
+Lower bound: -30.8547 uA.   Upper bound: -32.2208 uA.   Search amplitude: -31.5304 uA: AP.
+Lower bound: -30.8547 uA.   Upper bound: -31.5304 uA.   Search amplitude: -31.1907 uA: AP.
+Lower bound: -30.8547 uA.   Upper bound: -31.1907 uA.   Search amplitude: -31.0223 uA: AP.
+Lower bound: -30.8547 uA.   Upper bound: -31.0223 uA.   Search amplitude: -30.9384 uA: AP.
+Binary search ended. Threshold: -30.9384 uA.
+ 
+Run time for search: 0.36 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-25.3181 uA: 	 no AP.
+Increasing amplitude: 	-30.1085 uA: 	 no AP.
+Increasing amplitude: 	-35.8052 uA: 	 AP.
+Lower bound: -30.1085 uA.   Upper bound: -35.8052 uA.   Search amplitude: -32.8335 uA: AP.
+Lower bound: -30.1085 uA.   Upper bound: -32.8335 uA.   Search amplitude: -31.4415 uA: AP.
+Lower bound: -30.1085 uA.   Upper bound: -31.4415 uA.   Search amplitude: -30.7678 uA: AP.
+Lower bound: -30.1085 uA.   Upper bound: -30.7678 uA.   Search amplitude: -30.4363 uA: no AP.
+Lower bound: -30.4363 uA.   Upper bound: -30.7678 uA.   Search amplitude: -30.6016 uA: no AP.
+Lower bound: -30.6016 uA.   Upper bound: -30.7678 uA.   Search amplitude: -30.6846 uA: no AP.
+Binary search ended. Threshold: -30.6846 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.22 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.577 min.
+Results saved in PE_A_RMG/Results/result_1.mat.

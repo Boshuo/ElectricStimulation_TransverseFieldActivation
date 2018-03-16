@@ -1,0 +1,66 @@
+Model type: 	Point electrode
+Parameter ID:	290
+Pulse duration in ms:	0.3100
+Axon-Electrode distance in mm:	0.1400
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-13.3127 uA: 	 no AP.
+Increasing amplitude: 	-18.8269 uA: 	 no AP.
+Increasing amplitude: 	-26.6253 uA: 	 no AP.
+Increasing amplitude: 	-37.6539 uA: 	 no AP.
+Increasing amplitude: 	-53.2506 uA: 	 no AP.
+Increasing amplitude: 	-75.3077 uA: 	 AP.
+Lower bound: -53.2506 uA.   Upper bound: -75.3077 uA.   Search amplitude: -63.3260 uA: no AP.
+Lower bound: -63.3260 uA.   Upper bound: -75.3077 uA.   Search amplitude: -69.0575 uA: AP.
+Lower bound: -63.3260 uA.   Upper bound: -69.0575 uA.   Search amplitude: -66.1297 uA: AP.
+Lower bound: -63.3260 uA.   Upper bound: -66.1297 uA.   Search amplitude: -64.7127 uA: AP.
+Lower bound: -63.3260 uA.   Upper bound: -64.7127 uA.   Search amplitude: -64.0156 uA: no AP.
+Lower bound: -64.0156 uA.   Upper bound: -64.7127 uA.   Search amplitude: -64.3632 uA: no AP.
+Lower bound: -64.3632 uA.   Upper bound: -64.7127 uA.   Search amplitude: -64.5377 uA: AP.
+Binary search ended. Threshold: -64.5377 uA.
+ 
+Run time for search: 0.29 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-7.6373 uA: 	 no AP.
+Increasing amplitude: 	-8.3286 uA: 	 no AP.
+Increasing amplitude: 	-9.0824 uA: 	 no AP.
+Increasing amplitude: 	-9.9044 uA: 	 no AP.
+Increasing amplitude: 	-10.8008 uA: 	 no AP.
+Increasing amplitude: 	-11.7784 uA: 	 no AP.
+Increasing amplitude: 	-12.8444 uA: 	 no AP.
+Increasing amplitude: 	-14.0069 uA: 	 no AP.
+Increasing amplitude: 	-15.2746 uA: 	 no AP.
+Increasing amplitude: 	-16.6571 uA: 	 no AP.
+Increasing amplitude: 	-18.1647 uA: 	 no AP.
+Increasing amplitude: 	-19.8087 uA: 	 no AP.
+Increasing amplitude: 	-21.6016 uA: 	 no AP.
+Increasing amplitude: 	-23.5567 uA: 	 no AP.
+Increasing amplitude: 	-25.6888 uA: 	 no AP.
+Increasing amplitude: 	-28.0138 uA: 	 no AP.
+Increasing amplitude: 	-30.5493 uA: 	 no AP.
+Increasing amplitude: 	-33.3142 uA: 	 no AP.
+Increasing amplitude: 	-36.3294 uA: 	 no AP.
+Increasing amplitude: 	-39.6175 uA: 	 no AP.
+Increasing amplitude: 	-43.2032 uA: 	 no AP.
+Increasing amplitude: 	-47.1134 uA: 	 no AP.
+Increasing amplitude: 	-51.3775 uA: 	 no AP.
+Increasing amplitude: 	-56.0276 uA: 	 no AP.
+Increasing amplitude: 	-61.0985 uA: 	 no AP.
+Increasing amplitude: 	-66.6284 uA: 	 AP.
+Lower bound: -61.0985 uA.   Upper bound: -66.6284 uA.   Search amplitude: -63.8036 uA: no AP.
+Lower bound: -63.8036 uA.   Upper bound: -66.6284 uA.   Search amplitude: -65.2007 uA: AP.
+Lower bound: -63.8036 uA.   Upper bound: -65.2007 uA.   Search amplitude: -64.4984 uA: AP.
+Lower bound: -63.8036 uA.   Upper bound: -64.4984 uA.   Search amplitude: -64.1500 uA: no AP.
+Lower bound: -64.1500 uA.   Upper bound: -64.4984 uA.   Search amplitude: -64.3240 uA: AP.
+Binary search ended. Threshold: -64.3240 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 1.33 min.
+ 
+-----------------------------------------------------------
+Total run time: 1.616 min.
+Results saved in PE_A_HH/Results/result_290.mat.

@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	25
+Pulse duration in ms:	0.0014
+Axon-Electrode distance in mm:	0.2100
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-60.5427 uA: 	 no AP.
+Increasing amplitude: 	-85.6203 uA: 	 no AP.
+Increasing amplitude: 	-0.1211 mA: 	 AP.
+Lower bound: -85.6203 uA.   Upper bound: -0.1211 mA.   Search amplitude: -0.1018 mA: no AP.
+Lower bound: -0.1018 mA.   Upper bound: -0.1211 mA.   Search amplitude: -0.1110 mA: no AP.
+Lower bound: -0.1110 mA.   Upper bound: -0.1211 mA.   Search amplitude: -0.1160 mA: no AP.
+Lower bound: -0.1160 mA.   Upper bound: -0.1211 mA.   Search amplitude: -0.1185 mA: AP.
+Lower bound: -0.1160 mA.   Upper bound: -0.1185 mA.   Search amplitude: -0.1172 mA: AP.
+Lower bound: -0.1160 mA.   Upper bound: -0.1172 mA.   Search amplitude: -0.1166 mA: no AP.
+Lower bound: -0.1166 mA.   Upper bound: -0.1172 mA.   Search amplitude: -0.1169 mA: no AP.
+Binary search ended. Threshold: -0.1169 mA.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-95.6824 uA: 	 no AP.
+Increasing amplitude: 	-0.1138 mA: 	 no AP.
+Increasing amplitude: 	-0.1353 mA: 	 AP.
+Lower bound: -0.1138 mA.   Upper bound: -0.1353 mA.   Search amplitude: -0.1241 mA: AP.
+Lower bound: -0.1138 mA.   Upper bound: -0.1241 mA.   Search amplitude: -0.1188 mA: AP.
+Lower bound: -0.1138 mA.   Upper bound: -0.1188 mA.   Search amplitude: -0.1163 mA: no AP.
+Lower bound: -0.1163 mA.   Upper bound: -0.1188 mA.   Search amplitude: -0.1175 mA: AP.
+Lower bound: -0.1163 mA.   Upper bound: -0.1175 mA.   Search amplitude: -0.1169 mA: no AP.
+Lower bound: -0.1169 mA.   Upper bound: -0.1175 mA.   Search amplitude: -0.1172 mA: AP.
+Binary search ended. Threshold: -0.1172 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.226 min.
+Results saved in DE_A_RMG/Results/result_25.mat.

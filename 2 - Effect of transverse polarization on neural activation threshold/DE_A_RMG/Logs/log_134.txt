@@ -1,0 +1,41 @@
+Model type: 	Disk electrode
+Parameter ID:	134
+Pulse duration in ms:	0.0140
+Axon-Electrode distance in mm:	0.0310
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-4.1695 uA: 	 no AP.
+Increasing amplitude: 	-5.8966 uA: 	 no AP.
+Increasing amplitude: 	-8.3390 uA: 	 AP.
+Lower bound: -5.8966 uA.   Upper bound: -8.3390 uA.   Search amplitude: -7.0122 uA: no AP.
+Lower bound: -7.0122 uA.   Upper bound: -8.3390 uA.   Search amplitude: -7.6469 uA: AP.
+Lower bound: -7.0122 uA.   Upper bound: -7.6469 uA.   Search amplitude: -7.3227 uA: AP.
+Lower bound: -7.0122 uA.   Upper bound: -7.3227 uA.   Search amplitude: -7.1658 uA: AP.
+Lower bound: -7.0122 uA.   Upper bound: -7.1658 uA.   Search amplitude: -7.0886 uA: AP.
+Lower bound: -7.0122 uA.   Upper bound: -7.0886 uA.   Search amplitude: -7.0503 uA: AP.
+Lower bound: -7.0122 uA.   Upper bound: -7.0503 uA.   Search amplitude: -7.0313 uA: AP.
+Binary search ended. Threshold: -7.0313 uA.
+ 
+Run time for search: 0.09 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-5.6856 uA: 	 no AP.
+Increasing amplitude: 	-6.7614 uA: 	 no AP.
+Increasing amplitude: 	-8.0407 uA: 	 AP.
+Lower bound: -6.7614 uA.   Upper bound: -8.0407 uA.   Search amplitude: -7.3733 uA: AP.
+Lower bound: -6.7614 uA.   Upper bound: -7.3733 uA.   Search amplitude: -7.0607 uA: AP.
+Lower bound: -6.7614 uA.   Upper bound: -7.0607 uA.   Search amplitude: -6.9094 uA: no AP.
+Lower bound: -6.9094 uA.   Upper bound: -7.0607 uA.   Search amplitude: -6.9847 uA: no AP.
+Lower bound: -6.9847 uA.   Upper bound: -7.0607 uA.   Search amplitude: -7.0226 uA: AP.
+Lower bound: -6.9847 uA.   Upper bound: -7.0226 uA.   Search amplitude: -7.0036 uA: no AP.
+Binary search ended. Threshold: -7.0036 uA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.11 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.193 min.
+Results saved in DE_A_RMG/Results/result_134.mat.

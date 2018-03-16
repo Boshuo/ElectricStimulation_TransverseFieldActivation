@@ -1,0 +1,46 @@
+Model type: 	Point electrode
+Parameter ID:	301
+Pulse duration in ms:	0.3100
+Axon-Electrode distance in mm:	10.0000
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	-0.4434 mA: 	 no AP.
+Increasing amplitude: 	-0.6270 mA: 	 no AP.
+Increasing amplitude: 	-0.8868 mA: 	 no AP.
+Increasing amplitude: 	-1.2541 mA: 	 no AP.
+Increasing amplitude: 	-1.7736 mA: 	 no AP.
+Increasing amplitude: 	-2.5082 mA: 	 no AP.
+Increasing amplitude: 	-3.5471 mA: 	 no AP.
+Increasing amplitude: 	-5.0164 mA: 	 AP.
+Lower bound: -3.5471 mA.   Upper bound: -5.0164 mA.   Search amplitude: -4.2183 mA: no AP.
+Lower bound: -4.2183 mA.   Upper bound: -5.0164 mA.   Search amplitude: -4.6001 mA: no AP.
+Lower bound: -4.6001 mA.   Upper bound: -5.0164 mA.   Search amplitude: -4.8037 mA: no AP.
+Lower bound: -4.8037 mA.   Upper bound: -5.0164 mA.   Search amplitude: -4.9089 mA: AP.
+Lower bound: -4.8037 mA.   Upper bound: -4.9089 mA.   Search amplitude: -4.8560 mA: no AP.
+Lower bound: -4.8560 mA.   Upper bound: -4.9089 mA.   Search amplitude: -4.8824 mA: no AP.
+Lower bound: -4.8824 mA.   Upper bound: -4.9089 mA.   Search amplitude: -4.8956 mA: AP.
+Binary search ended. Threshold: -4.8956 mA.
+ 
+Run time for search: 0.19 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	-3.9181 mA: 	 no AP.
+Increasing amplitude: 	-4.6594 mA: 	 no AP.
+Increasing amplitude: 	-5.5410 mA: 	 AP.
+Lower bound: -4.6594 mA.   Upper bound: -5.5410 mA.   Search amplitude: -5.0811 mA: AP.
+Lower bound: -4.6594 mA.   Upper bound: -5.0811 mA.   Search amplitude: -4.8657 mA: no AP.
+Lower bound: -4.8657 mA.   Upper bound: -5.0811 mA.   Search amplitude: -4.9723 mA: AP.
+Lower bound: -4.8657 mA.   Upper bound: -4.9723 mA.   Search amplitude: -4.9187 mA: AP.
+Lower bound: -4.8657 mA.   Upper bound: -4.9187 mA.   Search amplitude: -4.8921 mA: no AP.
+Lower bound: -4.8921 mA.   Upper bound: -4.9187 mA.   Search amplitude: -4.9054 mA: AP.
+Binary search ended. Threshold: -4.9054 mA.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 0.36 min.
+ 
+-----------------------------------------------------------
+Total run time: 0.549 min.
+Results saved in PE_A_RMG/Results/result_301.mat.
