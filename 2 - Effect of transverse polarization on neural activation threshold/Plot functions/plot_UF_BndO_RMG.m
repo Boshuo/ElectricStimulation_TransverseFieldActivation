@@ -165,5 +165,4 @@ filename = fullfile([model_name,'_compiled_result']);
 [imind,cm] = rgb2ind(frame2im(getframe(h_f)),256);
 imwrite(imind,cm,[filename,'.tif'],'tif','WriteMode','overwrite', 'Resolution',300);
 saveas(h_f,[filename,'.fig']);
-close(h_f);
- 
+close(h_f); 

@@ -230,7 +230,7 @@ set([h_ax.Title], format_title);
 
 %%
 im = frame2im(getframe(h_f));
-[imind,cm] = rgb2ind(im(:,1:1100*2,:),256);
-imwrite(    imind,cm,'PE_DE_HH_combined.tif','tif','WriteMode','overwrite', 'Resolution',150,'Compression','none');
+[imind,cm] = rgb2ind(im(:,1:1100,:),256);
+imwrite(    imind,cm,'PE_DE_HH_combined.tif','tif','WriteMode','overwrite', 'Resolution',300,'Compression','none');
 saveas(h_f,'PE_DE_HH_combined.fig');
 close(h_f);

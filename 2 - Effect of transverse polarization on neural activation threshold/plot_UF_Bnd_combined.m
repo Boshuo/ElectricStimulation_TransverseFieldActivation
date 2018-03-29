@@ -400,7 +400,7 @@ set([h_ax.Title], format_title);
 im1 = frame2im(getframe(h_f1));
 im2 = frame2im(getframe(h_f2));
 
-im = cat(1,im1(1:725*2,1:1100*2,:),im2(1:450*2,1:1100*2,:));
+im = cat(1,im1(1:725,1:1100,:),im2(1:450,1:1100,:));
 [imind,cm] = rgb2ind(im,256);
 imwrite(imind,cm,'UF_Bnd_combined.tif','tif','WriteMode','overwrite', 'Resolution',300,'Compression','none');
 

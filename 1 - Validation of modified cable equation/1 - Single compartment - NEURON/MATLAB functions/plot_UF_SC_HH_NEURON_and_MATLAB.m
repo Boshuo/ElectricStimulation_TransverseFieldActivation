@@ -95,8 +95,8 @@ set(get(gca,'Title'), format_title);
 set(gca,format_axis);
 set(gca,'XMinorTick','off','YMinorTick','off');
 
-saveas(gca,fullfile('Processed data and figures','UF_SC_HH_combined.fig'));
 [imind,cm] = rgb2ind(frame2im(getframe(h_f)),256);
 imwrite(    imind,cm,fullfile('Processed data and figures','UF_SC_HH_combined.tif'),...
             'tif','WriteMode','overwrite', 'Resolution',300);
+saveas(gca,fullfile('Processed data and figures','UF_SC_HH_combined.fig'));
 close(h_f);
